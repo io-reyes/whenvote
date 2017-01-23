@@ -53,8 +53,9 @@ select.soflow{
     overflow: hidden;
     padding: 5px 10px;
     text-overflow: ellipsis;
+    font-size:150%;
     white-space: nowrap;
-    width: 300px;
+    width: 600px;
 }
 
 #about{
