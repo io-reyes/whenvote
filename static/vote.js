@@ -61,7 +61,7 @@ $(document).ready(function(){
 
     // Update the UI with null data
     function updateUINoDataFound() {
-        $('#election').html('No data available for upcoming elections in your state :-(');
+        $('#election').html('<div class="electionName">No data available for upcoming elections in your state :-(</div>');
     }
 
     // Make a Date object on the specified day with the latest possible time

@@ -1,12 +1,13 @@
 #data{
     text-align:center;
-    padding: 50px 0px;
+    
 }
 
 .electionName{
     text-transform:uppercase;
     line-height:1.5;
     padding:30px 30px;
+    font-size:150%;
 }
 
 .electionDate{
@@ -24,6 +25,7 @@
 #state{
     text-align:center;
     padding:10px 10px;
+    background-color:rgb(170, 180, 191);
 }
 
 /* -------------------- Select Box Styles: stackoverflow.com Method */
@@ -35,7 +37,7 @@ select.soflow{
     -webkit-padding-end: 20px;
     -webkit-padding-start: 2px;
     -webkit-user-select: none;
-    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-image: url(img/dropbg.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
     background-position: 97% center;
     background-repeat: no-repeat;
     border: 1px solid #AAA;
@@ -50,5 +52,6 @@ select.soflow{
 }
 
 #about{
-    text-align:center
+    text-align:center;
+    background-color:rgb(170, 180, 191);
 }
