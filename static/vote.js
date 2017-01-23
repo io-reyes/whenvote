@@ -42,7 +42,7 @@ $(document).ready(function(){
                 'requestAbsenteeBy':makeDate(2017, 10, 31)
             });
         } else {
-            updateUINoDataFound();
+            updateUINoDataFound(state);
         }
 
     }
@@ -62,8 +62,8 @@ $(document).ready(function(){
     }
 
     // Update the UI with null data
-    function updateUINoDataFound() {
-        $('#election').html('<div class="electionName">No data available for upcoming elections in your state :-(</div>');
+    function updateUINoDataFound(state) {
+        $('#election').html('<div class="electionName">No data available for upcoming elections in ' + state + ' :-(</div>');
     }
 
     // Make a Date object on the specified day with the latest possible time
