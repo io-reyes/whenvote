@@ -42,7 +42,7 @@ static web assets to maximize reliability and minimize hosting requirements.
 
 ## Credits
 
-State-level IP geolocation by [link](https://freegeoip.net "freegeoip.net")
+State-level IP geolocation by [freegeoip.net](https://freegeoip.net)
 
-Site icon "voting" licensed under Creative Commons, credit to [link](https://thenounproject.com/Luis/ "Luis Prado")
+Site icon "voting" licensed under Creative Commons, credit to [Luis Prado](https://thenounproject.com/Luis/)
 
