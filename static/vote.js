@@ -9,11 +9,16 @@ $(document).ready(function(){
         } else {
             // Otherwise, get it from the IP address
             var url = 'https://freegeoip.net/json/';
-            $.getJSON(url, function(data){
-                var state = data.region_code;
-                $('#stateSelect').val(state);
-                getStateData(state);
+            jQuery.ajax(url, {
+                type: "GET",
+                success: function(data, status, xhr) {
+                    var state = data.region_code;
+                    $('#stateSelect').val(state);
+                    getStateData(state);
+                },
+                crossDomain: true
             });
+
         }
 
     });
