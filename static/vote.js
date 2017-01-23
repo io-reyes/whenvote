@@ -7,18 +7,15 @@ $(document).ready(function(){
             $('#stateSelect').val(state);
             getStateData(state);
         } else {
-            // Otherwise, get it from the IP address
-            var url = 'https://freegeoip.net/json/';
-            jQuery.ajax(url, {
-                type: "GET",
-                success: function(data, status, xhr) {
-                    var state = data.region_code;
-                    $('#stateSelect').val(state);
-                    getStateData(state);
-                },
-                crossDomain: true
-            });
+            // Default to Alabama, the first item in the list alphabetically
+            getStateData('AL');
 
+            // Try to get it from the IP address
+            $.getJSON('https://freegeoip.net/json/github.com?callback=?', function(data, stat, xhr){
+                var state = data.region_code;
+                $('#stateSelect').val(state);
+                getStateData(state);
+            });
         }
 
     });
@@ -57,8 +54,8 @@ $(document).ready(function(){
         var date = formatElectionDate(data.date);
             
         // Registration info
-        var registration = 'Register by: ' + formatDeadline(data.registerBy);
-        var absentee = 'Request absentee ballot by: ' + formatDeadline(data.requestAbsenteeBy);
+        var registration = 'Register by ' + formatDeadline(data.registerBy);
+        var absentee = 'Request absentee ballot by ' + formatDeadline(data.requestAbsenteeBy);
         var deadlines = registration + '<br/>' + absentee;
 
         $('#election').html(electionName + '<br/>' + date + '<br/>' + deadlines);
