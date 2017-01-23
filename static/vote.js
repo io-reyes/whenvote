@@ -22,13 +22,7 @@ $(document).ready(function(){
 
     // Respond to drop-down changes
     $('#stateSelect').change(function(){
-        var state = this.value;
-
-        var myURL = document.location.toString();
-        myURL = myURL.replace(/\?.*/, '');
-        document.location = myURL + '?' + state;
-
-        getStateData(state);
+        getStateData(this.value);
     });
 
     // Pull election data and update the UI

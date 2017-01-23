@@ -11,12 +11,13 @@
     text-transform:uppercase;
     line-height:1.5;
     padding:0px 30px;
-    font-size:150%;
+    font-size:250%;
     font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
 }
 
 .electionDate{
-
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-size:150%;
 }
 
 .deadline{
