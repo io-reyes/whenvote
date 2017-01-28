@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>when.vote - Your Upcoming Statewide Elections</title>
 
@@ -30,6 +31,8 @@
 </head>
 
 <div id="stateSelect">
+    <p id="detectWarning" class="removed">Note: Could not automatically detect your state from your IP address. Ad-blockers often break this functionality.</p>
+
     <p>
     Upcoming statewide elections in
     <select id="stateDropdown">
@@ -89,8 +92,6 @@
     </p>
 </div>
 
-<hr>
-
 <div id="data">
     <div id="electionData" class="removed">
         <p id="electionDate"></p>
@@ -106,8 +107,6 @@
         <p class="stateRegInfo">
     </div>
 </div>
-
-<hr>
 
 <div id="about">
     <p>Developed and maintained by <a href="https://twitter.com/irwinreyescom" target="_blank">Irwin Reyes</a> | Source code and FAQ on <a href="https://github.com/io-reyes/whenvote" target="_blank">GitHub</a></p>

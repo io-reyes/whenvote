@@ -129,27 +129,30 @@ $(document).ready(function() {
 
     // Attempt to get the state in the following order: URL query, IP address, default
     var initialState = getStateFromURL();
-    var stateSetSuccess = initialState != void(0);
-    if(!stateSetSuccess) {
+    if(initialState != void(0)) {
+        $('#stateDropdown').val(initialState);
+        update(initialState);
+    } else {
         $.getJSON('https://freegeoip.net/json/github.com?callback=?', function(data, stat, xhr){
-            initialState = data.region_code;
-        }).done(function() {
-            stateSetSuccess = true;
+            var response = data.region_code;
+            if(response.length == 2 && stateAbbrevs[response] != void(0)) {
+                initialState = response;
+            }
+        }).fail(function() {
+            $('#detectWarning').removeClass('removed');
         }).always(function() {
-            if(!stateSetSuccess) {
+            if(initialState == void(0)) {
                 initialState = 'AL';
             }
 
             $('#stateDropdown').val(initialState);
             update(initialState);
         });
-    } else {
-        $('#stateDropdown').val(initialState);
-        update(initialState);
     }
 
     // Respond to drop-down changes
     $('#stateDropdown').change(function(){
+        $('#detectWarning').addClass('removed');
         update(this.value);
     });
 
@@ -214,12 +217,12 @@ $(document).ready(function() {
             // Deadlines
             var registerDate = makeDate(2017, 10, 16);
             var absenteeRequestDate = makeDate(2017, 10, 31);
-            $('#electionDeadlines').text('Register by ' + formatDate(registerDate) + ' | ' +
+            $('#electionDeadlines').html('Register by ' + formatDate(registerDate) + '<br/>' +
                                          'Request absentee by ' + formatDate(absenteeRequestDate));
             
             showElectionData();
         } else {
-            $('#noDataWarning').text('No election data available for ' + full);
+            $('#noDataWarning').text('Election schedule for ' + full + ' not available at this time');
             hideElectionData();
         }
 

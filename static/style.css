@@ -2,12 +2,20 @@ div {
     text-align: center
 }
 
-div.removed {
+.removed {
     display:none
 }
 
 p {
     font-family: Tahoma, Geneva, sans-serif;
+}
+
+#stateSelect,#about{
+    background-color: rgb(247,247,247);
+}
+
+#detectWarning{
+    background-color: rgb(255, 252, 191);
 }
 
 #electionData,#noData{
@@ -36,11 +44,4 @@ p {
 
 #about {
     font-size: 75%;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
