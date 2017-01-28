@@ -130,25 +130,53 @@ $(document).ready(function() {
     // Attempt to get the state in the following order: URL query, IP address, default
     var initialState = getStateFromURL();
     var stateSetSuccess = initialState != void(0);
-    $.getJSON('https://freegeoip.net/json/github.com?callback=?', function(data, stat, xhr){
-        if(initialState == void(0)) {
+    if(!stateSetSuccess) {
+        $.getJSON('https://freegeoip.net/json/github.com?callback=?', function(data, stat, xhr){
             initialState = data.region_code;
-        }
-    }).done(function() {
-        stateSetSuccess = true;
-    }).always(function() {
-        if(!stateSetSuccess) {
-            initialState = 'AL';
-        }
+        }).done(function() {
+            stateSetSuccess = true;
+        }).always(function() {
+            if(!stateSetSuccess) {
+                initialState = 'AL';
+            }
 
+            $('#stateDropdown').val(initialState);
+            update(initialState);
+        });
+    } else {
         $('#stateDropdown').val(initialState);
         update(initialState);
-    });
+    }
 
     // Respond to drop-down changes
     $('#stateDropdown').change(function(){
         update(this.value);
     });
+
+    // Make a Date object on the specified day with the latest possible time
+    function makeDate(year, month, day){
+        return new Date(year, month-1, day, 23, 59, 59, 999);
+    }
+
+    // Computes the number of days until a given Date object
+    function daysUntil(date){
+        var oneDay = 24*60*60*1000; 
+        var current = new Date();
+        return Math.floor((date.getTime() - current.getTime())/(oneDay));
+    }
+
+    // Show "<date> (<days until then, if not negative>)"
+    function formatDate(date) {
+        var daysUntilDate = daysUntil(date);
+        var daysUntilDateStr = '';
+        if(daysUntilDate == 1) {
+            daysUntilDateStr = ' (in 1 day)';
+        } else if(daysUntilDate == 0 || daysUntilDate > 1) {    
+            daysUntilDateStr = ' (in ' + daysUntilDate + ' days)';
+        }
+
+        return date.toDateString() + daysUntilDateStr;
+    }
 
     // Update elements when a state is selected
     function update(state) {
@@ -161,7 +189,47 @@ $(document).ready(function() {
             abbrev = stateAbbrevs[state];
         }
 
-        $('#stateRegInfo').text(full + ' : ' + abbrev);
+        // Update the permalink
+        var permalink = makeLink('?' + abbrev, '[permalink]');
+        $('#permalink').html(permalink);
+
+        // TODO Dummy data for Virginia; replace with USVF API calls
+        if(abbrev == 'VA') {
+            // Election date
+            var electionDate = makeDate(2017, 11, 7);
+            $('#electionDate').text(formatDate(electionDate));
+
+            // Elections
+            var electionNames = ['Virginia Gubernatorial Election', 'Virginia House of Delegates Election'];
+            var electionNamesStr = '';
+            for(n = 0; n < electionNames.length; n++) {
+                if(n > 0) {
+                    electionNamesStr += '<br/>&<br/>';
+                }
+
+                electionNamesStr += electionNames[n];
+            }
+            $('#electionName').html(electionNamesStr);
+
+            // Deadlines
+            var registerDate = makeDate(2017, 10, 16);
+            var absenteeRequestDate = makeDate(2017, 10, 31);
+            $('#electionDeadlines').text('Register by ' + formatDate(registerDate) + ' | ' +
+                                         'Request absentee by ' + formatDate(absenteeRequestDate));
+            
+            showElectionData();
+        } else {
+            $('#noDataWarning').text('No election data available for ' + full);
+            hideElectionData();
+        }
+
+        var regLink = makeLink('https://www.usvotefoundation.org/vote/us/state-voting-information/' + abbrev,
+                               'Registration information for ' + full)
+        $('#stateRegInfo').html(regLink);
+    }
+
+    function makeLink(url, text) {
+        return '<a href="' + url + '" target="_blank">' + text + '</a>';
     }
 })
 
