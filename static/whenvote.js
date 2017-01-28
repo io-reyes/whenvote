@@ -225,7 +225,7 @@ $(document).ready(function() {
 
         var regLink = makeLink('https://www.usvotefoundation.org/vote/us/state-voting-information/' + abbrev,
                                'Registration information for ' + full)
-        $('#stateRegInfo').html(regLink);
+        $('.stateRegInfo').html(regLink);
     }
 
     function makeLink(url, text) {

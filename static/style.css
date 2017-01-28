@@ -10,26 +10,27 @@ p {
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+#electionData,#noData{
+    padding: 75px;
+}
+
 #electionDate {
     font-size: 300%;
-    padding-top: 75px;
     text-transform: uppercase;
 }
 
 #electionName {
     font-size: 200%;
-    padding-top: 75px;
     text-transform: uppercase;
+    padding: 75px;
 }
 
 #electionDeadlines {
-    padding-top: 75px;
     font-size: 150%;
 }
 
-#noData {
+#noDataWarning {
     font-size: 200%;
-    padding: 50px;
     text-transform: uppercase;
 }
 
