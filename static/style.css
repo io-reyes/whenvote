@@ -18,6 +18,10 @@ p {
     background-color: rgb(255, 252, 191);
 }
 
+#stateDropdown,optgroup.stateOptions{
+    font-size:16pt;
+}
+
 #electionData,#noData{
     padding: 75px;
 }
