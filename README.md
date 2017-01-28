@@ -1,8 +1,8 @@
-# whenvote
+# when.vote
 Single-purpose site that detects visitors' states and shows upcoming elections
 and registration deadlines.
 
-Mock-up available at https://when.vote
+Deployed at https://when.vote
 
 ## FAQ
 
@@ -12,12 +12,13 @@ To help people become more aware of elections during non-presidential years.
 Statewide elections, especially for state legislature and executive positions,
 don't get a lot of coverage.
 
-### Why don't most of the states have election data?
+### Why doesn't my state have election data?
 
-I'm still looking for a good data source for election dates and registration
-deadlines. This is surprisingly hard to find, as states do their own thing.
-If I can't find such a data source, I'll have to write scrapers to get this
-data from each state's Secretary of State website.
+States organize their elections independently of one another, so state X might
+have dates set already but state Y is still working on it. The
+[Civic Data API](https://www.usvotefoundation.org/Civic-Data-API) I use to
+get this scheduling data is updated as soon as that information is available,
+so check back regularly to find out when your next election is.
 
 ### Why not have local elections too?
 
@@ -42,7 +43,8 @@ static web assets to maximize reliability and minimize hosting requirements.
 
 ## Credits
 
+Civic Data provided by [US Vote Foundation](https://www.usvotefoundation.org/Civic-Data-API)
+
 State-level IP geolocation by [freegeoip.net](https://freegeoip.net)
 
-Site icon "voting" licensed under Creative Commons, credit to [Luis Prado](https://thenounproject.com/Luis/)
-
+Site icon "voting booth" by [Alv Jorgen Bovolden](https://thenounproject.com/Alvbovo/) from the Noun Project
