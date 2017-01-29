@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 div {
     text-align: center
 }
@@ -10,12 +15,25 @@ p {
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+a:link,a:visited{
+    color:#3C3B6E;
+}
+
+a:hover,a:active{
+    color:#B22234;
+}
+
 #stateSelect,#about{
     background-color: rgb(247,247,247);
 }
 
 #detectWarning{
     background-color: rgb(255, 252, 191);
+    margin-top:0;
+}
+
+#stateInteractive{
+    margin-top:0;
 }
 
 #stateDropdown,optgroup.stateOptions{
@@ -23,7 +41,7 @@ p {
 }
 
 #electionData,#noData{
-    padding: 75px;
+    padding: 75px 0px;
 }
 
 #electionDate {
@@ -34,7 +52,7 @@ p {
 #electionName {
     font-size: 200%;
     text-transform: uppercase;
-    padding: 75px;
+    padding: 75px 0px;
 }
 
 #electionDeadlines {
@@ -48,4 +66,10 @@ p {
 
 #about {
     font-size: 75%;
+}
+
+/* from http://danielmall.com/articles/responsive-line-breaks/ */
+.rwd-line { display: block; }
+@media screen and (min-width: 768px){
+    .rwd-line { display: inline; }
 }

@@ -156,6 +156,11 @@ $(document).ready(function() {
         update(this.value);
     });
 
+    // Remove the warning on click
+    $('#stateDropdown').click(function() {
+        $('#detectWarning').addClass('removed');
+    });
+
     // Make a Date object on the specified day with the latest possible time
     function makeDate(year, month, day){
         return new Date(year, month-1, day, 23, 59, 59, 999);
@@ -171,12 +176,13 @@ $(document).ready(function() {
     // Show "<date> (<days until then, if not negative>)"
     function formatDate(date) {
         var daysUntilDate = daysUntil(date);
-        var daysUntilDateStr = '';
+        var daysUntilDateStr = '<span class="rwd-line">';
         if(daysUntilDate == 1) {
-            daysUntilDateStr = ' (in 1 day)';
+            daysUntilDateStr = '</span> <span class="rwd-line">(in 1 day)';
         } else if(daysUntilDate == 0 || daysUntilDate > 1) {    
-            daysUntilDateStr = ' (in ' + daysUntilDate + ' days)';
+            daysUntilDateStr = '</span> <span class="rwd-line">(in ' + daysUntilDate + ' days)';
         }
+        daysUntilDateStr += '</span>';
 
         return date.toDateString() + daysUntilDateStr;
     }
@@ -200,7 +206,7 @@ $(document).ready(function() {
         if(abbrev == 'VA') {
             // Election date
             var electionDate = makeDate(2017, 11, 7);
-            $('#electionDate').text(formatDate(electionDate));
+            $('#electionDate').html(formatDate(electionDate));
 
             // Elections
             var electionNames = ['Virginia Gubernatorial Election', 'Virginia House of Delegates Election'];
@@ -222,7 +228,7 @@ $(document).ready(function() {
             
             showElectionData();
         } else {
-            $('#noDataWarning').text('Election schedule for ' + full + ' not available at this time');
+            $('#noDataWarning').text('No statewide elections in ' + full + ' at this time');
             hideElectionData();
         }
 

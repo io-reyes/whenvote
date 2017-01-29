@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8"/>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 
-    <title>when.vote - Your Upcoming Statewide Elections</title>
+    <title>when.vote - Your upcoming statewide elections</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -29,11 +29,11 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
     <script src="whenvote.js"></script>
 </head>
-
+<body>
 <div id="stateSelect">
     <p id="detectWarning" class="removed">Note: Could not automatically detect your state. Please select your state from the drop-down list below.</p>
 
-    <p>
+    <p id="stateInteractive">
     <select id="stateDropdown">
         <optgroup class="stateOptions">
         <option value="AL">Alabama</option>
@@ -105,14 +105,14 @@
     <div id="noData">
         <p id="noDataWarning"></p>
 
-        <p class="stateRegInfo">
+        <p class="stateRegInfo"></p>
     </div>
 </div>
 
 <div id="about">
     <p>Developed and maintained by <a href="https://twitter.com/irwinreyescom" target="_blank">Irwin Reyes</a> | Source code and FAQ on <a href="https://github.com/io-reyes/whenvote" target="_blank">GitHub</a></p>
     <p>Civic Data provided by <a href="https://www.usvotefoundation.org/Civic-Data-API" target="_blank">US Vote Foundation</a></p>
-    <p>State-level IP geolocation by <a href="https://freegeoip.net" target="_none">freegeoip.net</a> | Site icon "voting booth" by <a href ="https://thenounproject.com/Alvbovo/" target="_none">Alv Jorgen Bovolden</a> from the Noun Project</p>
+    <p>State-level IP geolocation by <a href="https://freegeoip.net" target="_none">freegeoip.net</a> | Site icon "voting booth" by <a href ="https://thenounproject.com/Alvbovo/" target="_none">Alv Jorgen Bovolden</a> from the Noun Project | This site uses <a href="https://jquery.com/" target="_blank">jQuery</a></p>
 <div>
-
+</body>
 </html>

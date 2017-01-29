@@ -48,3 +48,5 @@ Civic Data provided by [US Vote Foundation](https://www.usvotefoundation.org/Civ
 State-level IP geolocation by [freegeoip.net](https://freegeoip.net)
 
 Site icon "voting booth" by [Alv Jorgen Bovolden](https://thenounproject.com/Alvbovo/) from the Noun Project
+
+This site uses [jQuery](https://jquery.com)
