@@ -173,18 +173,22 @@ $(document).ready(function() {
         return Math.floor((date.getTime() - current.getTime())/(oneDay));
     }
 
+    // Write the text in <span> tags in the rwd-line class
+    function rwdLine(text) {
+        return '<span class="rwd-line">' + text + '</span>';
+    }
+
     // Show "<date> (<days until then, if not negative>)"
     function formatDate(date) {
         var daysUntilDate = daysUntil(date);
-        var daysUntilDateStr = '<span class="rwd-line">';
+        var daysUntilDateStr = '';
         if(daysUntilDate == 1) {
-            daysUntilDateStr = '</span> <span class="rwd-line">(in 1 day)';
+            daysUntilDateStr = ' (in 1 day)';
         } else if(daysUntilDate == 0 || daysUntilDate > 1) {    
-            daysUntilDateStr = '</span> <span class="rwd-line">(in ' + daysUntilDate + ' days)';
+            daysUntilDateStr = ' (in ' + daysUntilDate + ' days)';
         }
-        daysUntilDateStr += '</span>';
 
-        return date.toDateString() + daysUntilDateStr;
+        return rwdLine(date.toDateString()) + rwdLine(daysUntilDateStr);
     }
 
     // Update elements when a state is selected
@@ -223,8 +227,8 @@ $(document).ready(function() {
             // Deadlines
             var registerDate = makeDate(2017, 10, 16);
             var absenteeRequestDate = makeDate(2017, 10, 31);
-            $('#electionDeadlines').html('Register by ' + formatDate(registerDate) + '<br/>' +
-                                         'Request absentee by ' + formatDate(absenteeRequestDate));
+            $('#electionDeadlines').html(rwdLine('Register by ') + formatDate(registerDate) + '<br/>' +
+                                         rwdLine('Request absentee by ') + formatDate(absenteeRequestDate));
             
             showElectionData();
         } else {
