@@ -1,0 +1,9 @@
+#!/bin/bash
+
+pushd firebase
+
+rm -rf public
+cp -R ../static public
+firebase deploy
+
+popd

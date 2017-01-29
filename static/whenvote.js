@@ -227,7 +227,7 @@ $(document).ready(function() {
         }
 
         var regLink = makeLink('https://www.usvotefoundation.org/vote/us/state-voting-information/' + abbrev,
-                               'Registration information for ' + full)
+                               'Learn more about voting and elections in ' + full)
         $('.stateRegInfo').html(regLink);
     }
 
