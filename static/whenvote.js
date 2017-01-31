@@ -232,7 +232,7 @@ $(document).ready(function() {
             
             showElectionData();
         } else {
-            $('#noDataWarning').text('No elections in ' + full + ' at this time');
+            $('#noDataWarning').text('No statewide elections in ' + full + ' at this time');
             hideElectionData();
         }
 
