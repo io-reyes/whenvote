@@ -43,7 +43,7 @@ static web assets to maximize reliability and minimize hosting requirements.
 
 ## Credits
 
-Civic Data provided by [US Vote Foundation](https://www.usvotefoundation.org/Civic-Data-API)
+Civic Data provided by [U.S. Vote Foundation](https://www.usvotefoundation.org/Civic-Data-API)
 
 State-level IP geolocation by [freegeoip.net](https://freegeoip.net)
 

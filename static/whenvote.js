@@ -232,12 +232,12 @@ $(document).ready(function() {
             
             showElectionData();
         } else {
-            $('#noDataWarning').text('No statewide elections in ' + full + ' at this time');
+            $('#noDataWarning').text('No elections in ' + full + ' at this time');
             hideElectionData();
         }
 
         var regLink = makeLink('https://www.usvotefoundation.org/vote/us/state-voting-information/' + abbrev,
-                               'Learn more about voting and elections in ' + full)
+                               'Learn more about registering and voting in ' + full)
         $('.stateRegInfo').html(regLink);
     }
 
