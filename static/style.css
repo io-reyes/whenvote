@@ -30,6 +30,7 @@ a:hover,a:active{
 #detectWarning{
     background-color: rgb(255, 252, 191);
     margin-top:0;
+    margin-bottom:0;
 }
 
 #stateInteractive{
