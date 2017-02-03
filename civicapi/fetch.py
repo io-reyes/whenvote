@@ -13,8 +13,10 @@ if __name__ == '__main__':
 
     secret = None
     with open(secret_file, 'r') as f:
-        secret = f.readline()
+        secret = f.readline().strip()
 
     api = CivicAPI(secret)
-    resp = api.getElectionsAndDeadlines()
-    print(resp)
+    data = api.get_upcoming_elections()
+
+    for election in data:
+        print('%s : %s' % (election['title'], election['election_date']))
