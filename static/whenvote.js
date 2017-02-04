@@ -105,6 +105,11 @@ $(document).ready(function() {
         "Wyoming":"WY"
     };
 
+    // Set a 3 second timeout for ajax requests
+    $.ajaxSetup({
+        timeout: 3000
+    });
+
     // Read the data file
     var data = $.parseJSON(
         $.ajax({
@@ -142,7 +147,7 @@ $(document).ready(function() {
         $('#stateDropdown').val(initialState);
         update(initialState);
     } else {
-        $.getJSON('https://freegeoip.net/json/github.com?callback=?', function(data, stat, xhr){
+        $.getJSON('https://freegeoip.net/json/?callback=?', function(data, stat, xhr){
             var response = data.region_code;
             if(response.length == 2 && stateAbbrevs[response] != void(0)) {
                 initialState = response;
