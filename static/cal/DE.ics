@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+PRODID:ics.py - http://git.io/lLljaA
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20170204T182425Z
+DTSTART:20170215T000000Z
+SUMMARY:Registration deadline: Delaware State House District 10 Special Election
+UID:f8750a7e-b9a9-4580-a50e-c9d631c0bd5e@f875.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170204T182425Z
+DTSTART:20170221T000000Z
+SUMMARY:Absentee request deadline: Delaware State House District 10 Special Election
+UID:a3fa2670-6961-4a0c-aaab-9ebd5dea8113@a3fa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170204T182425Z
+DTSTART:20170225T000000Z
+SUMMARY:Election: Delaware State House District 10 Special Election
+UID:0eae4dd1-f0c4-4e11-b1f9-98fdf7088a63@0eae.org
+END:VEVENT
+END:VCALENDAR

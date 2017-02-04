@@ -13,6 +13,7 @@ div {
 
 p {
     font-family: Tahoma, Geneva, sans-serif;
+    margin: 10px 0;
 }
 
 a:link,a:visited{
@@ -41,19 +42,18 @@ a:hover,a:active{
     font-size:16pt;
 }
 
-#electionData,#noData{
-    padding: 75px 0px;
+#electionData,#electionNameWrapper,#noData{
+    margin: 115px 0px;
 }
 
 #electionDate {
-    font-size: 300%;
+    font-size: 350%;
     text-transform: uppercase;
 }
 
 #electionName {
     font-size: 200%;
     text-transform: uppercase;
-    padding: 75px 0px;
 }
 
 #electionDeadlines {

@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8"/>
 
-    <title>when.vote - Your upcoming statewide elections</title>
+    <title>when.vote - Your state's upcoming elections</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -33,7 +33,7 @@
 <div id="stateSelect">
     <p id="detectWarning" class="removed">Please select your state from the drop-down list below. 
                                           Unable to detect your state automatically.
-                                          <a href="https://github.com/io-reyes/whenvote#why-didnt-the-site-correctly-detect-my-state" target="_blank">[Why?]</a> </p>
+                                          <a href="https://github.com/io-reyes/whenvote#why-didnt-the-site-correctly-detect-my-state">[Why?]</a> </p>
 
     <p id="stateInteractive">
     <select id="stateDropdown">
@@ -98,7 +98,10 @@
 <div id="data">
     <div id="electionData" class="removed">
         <p id="electionDate"></p>
-        <p id="electionName"></p>
+        <div id="electionNameWrapper">
+            <p id="electionName"></p>
+            <p id="addToCalendar"></p>
+        </div>
         <p id="electionDeadlines"></p>
 
         <p class="stateRegInfo">
@@ -112,9 +115,9 @@
 </div>
 
 <div id="about">
-    <p>Developed and maintained by <a href="https://twitter.com/irwinreyescom" target="_blank">Irwin Reyes</a> | Source code and FAQ on <a href="https://github.com/io-reyes/whenvote" target="_blank">GitHub</a></p>
-    <p>Civic Data provided by <a href="https://www.usvotefoundation.org/Civic-Data-API" target="_blank">U.S. Vote Foundation</a></p>
-    <p>State-level IP geolocation by <a href="https://freegeoip.net" target="_none">freegeoip.net</a> | Site icon "voting booth" by <a href ="https://thenounproject.com/Alvbovo/" target="_none">Alv Jorgen Bovolden</a> from the Noun Project | This site uses <a href="https://jquery.com/" target="_blank">jQuery</a></p>
+    <p>Developed and maintained by <a href="https://twitter.com/irwinreyescom">Irwin Reyes</a> | Source code and FAQ on <a href="https://github.com/io-reyes/whenvote">GitHub</a></p>
+    <p>Civic Data provided by <a href="https://www.usvotefoundation.org/Civic-Data-API">U.S. Vote Foundation</a></p>
+    <p>State-level IP geolocation by <a href="https://freegeoip.net">freegeoip.net</a> | Site icon "voting booth" by <a href ="https://thenounproject.com/Alvbovo/" target="_none">Alv Jorgen Bovolden</a> from the Noun Project | This site uses <a href="https://jquery.com/">jQuery</a></p>
 <div>
 </body>
 </html>

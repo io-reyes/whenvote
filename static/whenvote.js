@@ -224,7 +224,7 @@ $(document).ready(function() {
         }
 
         // Update the permalink
-        var permalink = makeLink('?' + abbrev, '[permalink]');
+        var permalink = makeLink('?' + abbrev, 'permalink');
         $('#permalink').html(permalink);
 
         // Show state data, if available
@@ -249,6 +249,9 @@ $(document).ready(function() {
             }
             $('#electionName').html(electionNamesStr);
 
+            // Calendar link
+            $('#addToCalendar').html('&#128197; ' + makeLink('cal/' + abbrev + '.ics', 'Add to calendar'));
+
             // Show any valid deadlines
             var registerDate = validDate(stateData, 'register');
             var absenteeDate = validDate(stateData, 'absentee');
@@ -269,17 +272,17 @@ $(document).ready(function() {
 
             showElectionData();
         } else {
-            $('#noDataWarning').text('No statewide elections in ' + full + ' at this time');
+            $('#noDataWarning').text('No state-level elections in ' + full + ' at this time');
             hideElectionData();
         }
 
         var regLink = makeLink('https://www.usvotefoundation.org/vote/us/state-voting-information/' + abbrev,
                                'Learn more about registering and voting in ' + full)
-        $('.stateRegInfo').html(regLink);
+        $('.stateRegInfo').html('&#10003; ' + regLink);
     }
 
     function makeLink(url, text) {
-        return '<a href="' + url + '" target="_blank">' + text + '</a>';
+        return '<a href="' + url + '">' + text + '</a>';
     }
 })
 

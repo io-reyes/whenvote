@@ -1,128 +1,128 @@
 {
-    "OK": {
-        "election_day": 7,
-        "election_month": 3,
-        "register_year": 2017,
-        "register_day": 10,
-        "election_names": [
-            "Oklahoma House District 28 Special Primary Election"
-        ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 1,
-        "register_month": 2,
-        "absentee_month": 3
-    },
-    "KS": {
-        "election_day": 11,
-        "election_month": 4,
-        "register_year": 2017,
-        "register_day": 21,
-        "election_names": [
-            "Kansas 4th District Special Election"
-        ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 8,
-        "register_month": 3,
-        "absentee_month": 4
-    },
-    "NJ": {
-        "election_day": 6,
-        "election_month": 6,
-        "register_year": 2017,
-        "register_day": 16,
-        "election_names": [
-            "New Jersey State Primary Elections"
-        ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 30,
-        "register_month": 5,
-        "absentee_month": 5
-    },
-    "AK": {
-        "election_day": 3,
-        "election_month": 10,
-        "register_year": 2017,
-        "register_day": 3,
-        "election_names": [
-            "Alaska Regional Education Attendance Area Elections"
-        ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 25,
-        "register_month": 9,
-        "absentee_month": 9
-    },
     "CT": {
-        "election_day": 28,
         "election_month": 2,
-        "register_year": 2017,
-        "register_day": 21,
         "election_names": [
             "Connecticut State Legislature Special Election"
         ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 27,
         "register_month": 2,
-        "absentee_month": 2
-    },
-    "CO": {
-        "election_day": 7,
-        "election_month": 11,
-        "register_year": 2017,
-        "register_day": 30,
-        "election_names": [
-            "Colorado Coordinated Election"
-        ],
+        "absentee_year": 2017,
         "election_year": 2017,
-        "absentee_year": -1,
-        "absentee_day": -1,
-        "register_month": 10,
-        "absentee_month": -1
+        "register_year": 2017,
+        "absentee_month": 2,
+        "absentee_day": 27,
+        "register_day": 21,
+        "election_day": 28
     },
     "DE": {
-        "election_day": 25,
         "election_month": 2,
-        "register_year": 2017,
-        "register_day": 15,
         "election_names": [
             "Delaware State House District 10 Special Election"
         ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 21,
         "register_month": 2,
-        "absentee_month": 2
+        "absentee_year": 2017,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": 2,
+        "absentee_day": 21,
+        "register_day": 15,
+        "election_day": 25
+    },
+    "KS": {
+        "election_month": 4,
+        "election_names": [
+            "Kansas 4th District Special Election"
+        ],
+        "register_month": 3,
+        "absentee_year": 2017,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": 4,
+        "absentee_day": 8,
+        "register_day": 21,
+        "election_day": 11
+    },
+    "OK": {
+        "election_month": 3,
+        "election_names": [
+            "Oklahoma House District 28 Special Primary Election"
+        ],
+        "register_month": 2,
+        "absentee_year": 2017,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": 3,
+        "absentee_day": 1,
+        "register_day": 10,
+        "election_day": 7
     },
     "VA": {
-        "election_day": 13,
         "election_month": 6,
-        "register_year": 2017,
-        "register_day": 22,
         "election_names": [
             "Virginia State Primary Election"
         ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 6,
         "register_month": 5,
-        "absentee_month": 6
+        "absentee_year": 2017,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": 6,
+        "absentee_day": 6,
+        "register_day": 22,
+        "election_day": 13
+    },
+    "CO": {
+        "election_month": 11,
+        "election_names": [
+            "Colorado Coordinated Election"
+        ],
+        "register_month": 10,
+        "absentee_year": -1,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": -1,
+        "absentee_day": -1,
+        "register_day": 30,
+        "election_day": 7
+    },
+    "NJ": {
+        "election_month": 6,
+        "election_names": [
+            "New Jersey State Primary Elections"
+        ],
+        "register_month": 5,
+        "absentee_year": 2017,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": 5,
+        "absentee_day": 30,
+        "register_day": 16,
+        "election_day": 6
+    },
+    "AK": {
+        "election_month": 10,
+        "election_names": [
+            "Alaska Regional Education Attendance Area Elections"
+        ],
+        "register_month": 9,
+        "absentee_year": 2017,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": 9,
+        "absentee_day": 25,
+        "register_day": 3,
+        "election_day": 3
     },
     "AL": {
-        "election_day": 7,
         "election_month": 3,
-        "register_year": 2017,
-        "register_day": 20,
         "election_names": [
             "Alabama House District 58 Special Primary Election"
         ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_day": 2,
         "register_month": 2,
-        "absentee_month": 3
+        "absentee_year": 2017,
+        "election_year": 2017,
+        "register_year": 2017,
+        "absentee_month": 3,
+        "absentee_day": 2,
+        "register_day": 20,
+        "election_day": 7
     }
 }
