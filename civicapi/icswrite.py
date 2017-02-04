@@ -1,11 +1,12 @@
 from ics import Calendar, Event
+from datetime import datetime
 
 class ICSWrite:
     def __init__(self, state_data):
         self.election_title = ', '.join(state_data['election_names'])
-        self.election_date = '%04d%02d%02d 23:59:59' % (state_data['election_year'], state_data['election_month'], state_data['election_day']) if min(state_data['election_year'], state_data['election_month'], state_data['election_day']) > 0 else None
-        self.register_date = '%04d%02d%02d 23:59:59' % (state_data['register_year'], state_data['register_month'], state_data['register_day']) if min(state_data['register_year'], state_data['register_month'], state_data['register_day']) > 0 else None
-        self.absentee_date = '%04d%02d%02d 23:59:59' % (state_data['absentee_year'], state_data['absentee_month'], state_data['absentee_day']) if min(state_data['absentee_year'], state_data['absentee_month'], state_data['absentee_day']) > 0 else None
+        self.election_date = datetime(year=state_data['election_year'], month=state_data['election_month'], day=state_data['election_day'], hour=7) if min(state_data['election_year'], state_data['election_month'], state_data['election_day']) > 0 else None
+        self.register_date = datetime(year=state_data['register_year'], month=state_data['register_month'], day=state_data['register_day'], hour=7) if min(state_data['register_year'], state_data['register_month'], state_data['register_day']) > 0 else None
+        self.absentee_date = datetime(year=state_data['absentee_year'], month=state_data['absentee_month'], day=state_data['absentee_day'], hour=7) if min(state_data['absentee_year'], state_data['absentee_month'], state_data['absentee_day']) > 0 else None
         self.calendar = Calendar()
 
     def _add_event(self, prefix, date):
@@ -14,7 +15,7 @@ class ICSWrite:
             e = Event()
             e.name = '%s: %s' % (prefix, self.election_title)
             e.begin = date
-            e.make_all_day()
+            e.duration = {'hours': 12}
 
             self.calendar.events.append(e)
 
@@ -24,5 +25,12 @@ class ICSWrite:
         self._add_event('Registration deadline', self.register_date)
         self._add_event('Absentee request deadline', self.absentee_date)
 
+        # Remove timezone info from DTSTART lines
+        calendar_lines = []
+        for line in self.calendar:
+            line = line.strip()
+            processed = line.rstrip('Z') if line.startswith('DTSTART:') else line
+            calendar_lines.append(processed + '\n')
+
         with open(out_file, 'w') as fp:
-            fp.writelines(self.calendar)
+            fp.writelines(calendar_lines)
