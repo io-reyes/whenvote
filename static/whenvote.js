@@ -105,6 +105,15 @@ $(document).ready(function() {
         "Wyoming":"WY"
     };
 
+    // Read the data file
+    var data = $.parseJSON(
+        $.ajax({
+            url: 'data.json',
+            async: false,
+            dataType: 'json'
+        }).responseText
+    );
+
     // Hide the "election data" div and show the "no data" div
     function hideElectionData() {
         $('#electionData').addClass('removed');
@@ -191,6 +200,18 @@ $(document).ready(function() {
         return rwdLine(date.toDateString()) + rwdLine(daysUntilDateStr);
     }
 
+    function validDate(stateData, prefix) {
+        var year = stateData[prefix + '_year'];
+        var month = stateData[prefix + '_month'];
+        var day = stateData[prefix + '_day'];
+
+        if(year > 0 && month > 0 && day > 0) {
+            return formatDate(makeDate(year, month, day));
+        } else {
+            return '';
+        }
+    }
+
     // Update elements when a state is selected
     function update(state) {
         var full, abbrev;
@@ -206,14 +227,18 @@ $(document).ready(function() {
         var permalink = makeLink('?' + abbrev, '[permalink]');
         $('#permalink').html(permalink);
 
-        // TODO Dummy data for Virginia; replace with USVF API calls
-        if(abbrev == 'VA') {
-            // Election date
-            var electionDate = makeDate(2017, 11, 7);
-            $('#electionDate').html(formatDate(electionDate));
+        // Show state data, if available
+        if(data.hasOwnProperty(abbrev)) {
+            var stateData = data[abbrev];
 
-            // Elections
-            var electionNames = ['Virginia Gubernatorial Election', 'Virginia House of Delegates Election'];
+            // Show election date if valid
+            var electionDate = validDate(stateData, 'election');
+            if(electionDate) {
+                $('#electionDate').html(electionDate);
+            }
+
+            // Election names
+            var electionNames = stateData['election_names'];
             var electionNamesStr = '';
             for(n = 0; n < electionNames.length; n++) {
                 if(n > 0) {
@@ -224,12 +249,24 @@ $(document).ready(function() {
             }
             $('#electionName').html(electionNamesStr);
 
-            // Deadlines
-            var registerDate = makeDate(2017, 10, 16);
-            var absenteeRequestDate = makeDate(2017, 10, 31);
-            $('#electionDeadlines').html(rwdLine('Register by ') + formatDate(registerDate) + '<br/>' +
-                                         rwdLine('Request absentee by ') + formatDate(absenteeRequestDate));
-            
+            // Show any valid deadlines
+            var registerDate = validDate(stateData, 'register');
+            var absenteeDate = validDate(stateData, 'absentee');
+
+            var deadlineString = '';
+            if(registerDate) {
+                deadlineString += rwdLine('Register by ') + registerDate;
+            }
+            if(absenteeDate) {
+                if(registerDate) {
+                    deadlineString += '<br/>';
+                }
+                deadlineString += rwdLine('Request absentee by ') + absenteeDate;
+            }
+            if(deadlineString) {
+                $('#electionDeadlines').html(deadlineString);
+            }
+
             showElectionData();
         } else {
             $('#noDataWarning').text('No statewide elections in ' + full + ' at this time');
