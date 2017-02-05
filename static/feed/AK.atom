@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>AK</id>
+  <title>AK's next election</title>
+  <updated>2017-02-05T07:09:19.209717+00:00</updated>
+  <link href="https://when.vote/?AK" rel="alternate"/>
+  <link href="https://when.vote/feed/AK.atom" rel="self"/>
+  <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>AK-election</id>
+    <title>New AK election: Alaska Regional Education Attendance Area Elections</title>
+    <updated>2017-02-05T07:09:19.209751+00:00</updated>
+    <content>Visit https://when.vote/?AK to see election date and registration deadlines</content>
+    <link href="https://when.vote/?AK" rel="alternate"/>
+    <published>2017-02-05T07:09:19.209788+00:00</published>
+  </entry>
+</feed>

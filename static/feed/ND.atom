@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>ND</id>
+  <title>Upcoming election for ND</title>
+  <updated>2017-02-05T05:56:16.220977+00:00</updated>
+  <link href="https://when.vote/?ND" rel="alternate"/>
+  <link href="https://when.vote/feed/ND.atom" rel="self"/>
+  <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+</feed>

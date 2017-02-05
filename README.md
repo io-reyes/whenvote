@@ -34,11 +34,17 @@ work than it's worth right now.
 
 ### Why didn't the site correctly detect my state?
 
-It could be one of two reasons. The first is that you're blocking ads in your
-browser. Although the site has no ads or trackers at all, it does use freegeoip.net
-to determine visitors' states, which is on many adblockers' lists. The other
-reason is that you're browsing the site on a mobile connection. Mobile IP addresses
-can be registered in unexpected places.
+It could be one of three reasons: 
+
+* You have an ad-blocker. Although this site has no ads or trackers at all, it does use
+freegeoip.net to determine your state from your IP address. This domain is on many
+adblockers' lists.
+
+* freegeoip.net is being slow. In order to keep load times snappy, this site is set
+to give up trying to detect your state if it doesn't get that data within 1 second.
+
+* You're browsing on a cellular connection. Mobile IP addresses might not be
+registered near your actual position.
 
 ### Are you collecting any data from visitors?
 
@@ -56,6 +62,9 @@ all.
 In lieu of email/text reminders, when.vote generates ICS calendar files that you
 can import into popular calendar platforms like Google Calendar, Apple Calendar
 (formerly iCal), and Microsoft Outlook.
+
+when.vote also has an Atom feed for each state, which is updated whenever a new
+election is posted for that state.
 
 ## Credits
 

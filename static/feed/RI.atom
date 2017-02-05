@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>RI</id>
+  <title>Upcoming election for RI</title>
+  <updated>2017-02-05T05:56:16.221536+00:00</updated>
+  <link href="https://when.vote/?RI" rel="alternate"/>
+  <link href="https://when.vote/feed/RI.atom" rel="self"/>
+  <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+</feed>

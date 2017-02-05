@@ -105,9 +105,9 @@ $(document).ready(function() {
         "Wyoming":"WY"
     };
 
-    // Set a 3 second timeout for ajax requests
+    // Set a 1 second timeout for ajax requests
     $.ajaxSetup({
-        timeout: 3000
+        timeout: 1000
     });
 
     // Read the data file
@@ -231,6 +231,11 @@ $(document).ready(function() {
         // Update the permalink
         var permalink = makeLink('?' + abbrev, 'permalink');
         $('#permalink').html(permalink);
+        
+        // Update the updates-feed link
+        var updateslink = makeLink('feed/' + abbrev + '.atom', 'atom/rss');
+        $('#feed').html(updateslink);
+
 
         // Show state data, if available
         if(data.hasOwnProperty(abbrev)) {

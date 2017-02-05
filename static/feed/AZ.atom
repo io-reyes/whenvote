@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>AZ</id>
+  <title>Upcoming election for AZ</title>
+  <updated>2017-02-05T05:56:16.217448+00:00</updated>
+  <link href="https://when.vote/?AZ" rel="alternate"/>
+  <link href="https://when.vote/feed/AZ.atom" rel="self"/>
+  <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+</feed>

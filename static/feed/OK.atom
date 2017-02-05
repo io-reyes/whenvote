@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>OK</id>
+  <title>OK's next election</title>
+  <updated>2017-02-05T07:09:19.208436+00:00</updated>
+  <link href="https://when.vote/?OK" rel="alternate"/>
+  <link href="https://when.vote/feed/OK.atom" rel="self"/>
+  <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>OK-election</id>
+    <title>New OK election: Oklahoma House District 28 Special Primary Election</title>
+    <updated>2017-02-05T07:09:19.208470+00:00</updated>
+    <content>Visit https://when.vote/?OK to see election date and registration deadlines</content>
+    <link href="https://when.vote/?OK" rel="alternate"/>
+    <published>2017-02-05T07:09:19.208505+00:00</published>
+  </entry>
+</feed>
