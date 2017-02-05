@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>MD</id>
-  <title>Upcoming election for MD</title>
-  <updated>2017-02-05T05:56:16.219397+00:00</updated>
+  <title>MD's next election</title>
+  <updated>2017-02-05T16:53:11.841026+00:00</updated>
   <link href="https://when.vote/?MD" rel="alternate"/>
   <link href="https://when.vote/feed/MD.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
