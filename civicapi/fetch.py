@@ -74,7 +74,7 @@ def write_data(data, out_file, force=False):
             icsdata = ICSWrite(state_data)
             icsdata.write(os.path.join(out_cal_folder, state + '.ics'))
 
-            old_state_data = old_data[state] if old_data is not None else None
+            old_state_data = old_data[state] if old_data is not None and state in old_data else None
             feeddata = FeedWrite(state_data, old_state_data)
             feeddata.write(state, os.path.join(out_feeds_folder, state + '.atom'), force=force)
 
