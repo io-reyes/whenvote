@@ -2,8 +2,7 @@
 
 pushd firebase
 
-rm -rf public
-cp -R ../static public
+rsync -az --delete ../static/ public/
 firebase deploy
 
 popd

@@ -55,16 +55,16 @@ static web assets to maximize reliability and minimize hosting requirements.
 ### Can you send out email/text reminders as elections and deadlines come up?
 
 I thought about doing this, but decided against it because that would have required me
-to maintain and secure 51 subscription lists (for the 50 states + DC). I don't want to
+to maintain and secure 51 email lists (for the 50 states + DC). I don't want to
 be liable for any data breaches, so I'm abstaining from gathering any user data at
 all.
 
-In lieu of email/text reminders, when.vote generates ICS calendar files that you
+In lieu of email/text reminders, you can follow [@whenvote](https://twitter.com/whenvote),
+which is updated whenever new elections are posted.
+
+when.vote also generates ICS calendar files that you
 can import into popular calendar platforms like Google Calendar, Apple Calendar
 (formerly iCal), and Microsoft Outlook.
-
-when.vote also has an Atom feed for each state, which is updated whenever a new
-election is posted for that state.
 
 ## Credits
 
@@ -76,6 +76,6 @@ Site icon "voting booth" by [Alv Jorgen Bovolden](https://thenounproject.com/Alv
 
 This site uses [jQuery](https://jquery.com)
 
-The Civic API data retrieval script use the [Requests](http://docs.python-requests.org/en/master/)
-and [Ics.py](https://icspy.readthedocs.io/en/v0.3/) modules for Python 3
+The Civic API data retrieval script uses the [Requests](http://docs.python-requests.org/en/master/), 
+[Ics.py](https://icspy.readthedocs.io/en/v0.3/), and [Tweepy](http://www.tweepy.org/) modules for Python 3
 

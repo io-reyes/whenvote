@@ -233,11 +233,6 @@ $(document).ready(function() {
         $('#permalink').html(permalink);
         
         // Update the updates-feed link
-        var feedlyBase = 'https://cloud.feedly.com/#subscription/';
-        var feedlySubscribe = 'feed/https://when.vote/feed/' + abbrev + '.atom';
-        var feedlyLink = makeLink(feedlyBase + encodeURIComponent(feedlySubscribe), 'feedly');
-        $('#feedly').html(feedlyLink);
-
         var atomLink = makeLink('feed/' + abbrev + '.atom', 'atom/rss');
         $('#atom').html(atomLink);
 

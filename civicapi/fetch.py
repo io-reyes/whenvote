@@ -1,6 +1,7 @@
 from civicapi import CivicAPI
 from icswrite import ICSWrite
 from feedwrite import FeedWrite
+from tweetwrite import TweetWrite
 
 from datetime import datetime
 
@@ -36,7 +37,7 @@ def is_valid_update(data_old, data_new):
 
     return data_new_exists and not data_old_exists
 
-def write_data(data, out_file, force=False):
+def write_data(data, out_file, secrets, force=False):
     """Write the election JSON file and accompanying ICS
     files if data differs from previously written. Nothing
     written if the same
@@ -45,6 +46,7 @@ def write_data(data, out_file, force=False):
     data -- dictionary of state elections to be written to JSON
     out_file -- path and filename of output JSON file; ICS files 
                 will be written to a cal/ subfolder accompanying this
+    secrets -- dictionary containing Twitter API credentials
 
     Keyword arguments:
     force -- set to True to force files to be written
@@ -65,11 +67,12 @@ def write_data(data, out_file, force=False):
         with open(out_file, 'w') as fp:
             json.dump(data, fp, indent=4)
 
-        # Write the ICS and feed files
+        # Write the ICS and feed files, and post updates to Twitter
         if(not os.path.exists(out_cal_folder)):
             os.makedirs(out_cal_folder)
         if(not os.path.exists(out_feeds_folder)):
             os.makedirs(out_feeds_folder)
+        tw = TweetWrite(secrets)
         for state,state_data in data.items():
             icsdata = ICSWrite(state_data)
             icsdata.write(os.path.join(out_cal_folder, state + '.ics'))
@@ -77,6 +80,8 @@ def write_data(data, out_file, force=False):
             old_state_data = old_data[state] if old_data is not None and state in old_data else None
             feeddata = FeedWrite(state_data, old_state_data)
             feeddata.write(state, os.path.join(out_feeds_folder, state + '.atom'), force=force)
+
+            tw.tweet_update(state, state_data, old_state_data)
 
         print('Update OK')
 
@@ -87,12 +92,12 @@ if __name__ == '__main__':
     force_write = args.force
     out_file = os.path.abspath(args.output)
 
-    # Read the API secret and get election data
-    secret = None
+    # Read API secrets and get election data
+    secrets = None
     with open(secret_file, 'r') as f:
-        secret = f.readline().strip()
-    api = CivicAPI(secret)
+        secrets = json.load(f)
+    api = CivicAPI(secrets['usvf_secret'])
     data = api.get_upcoming_elections()
 
     # Write out the data
-    write_data(data, out_file, force=force_write)
+    write_data(data, out_file, secrets, force=force_write)
