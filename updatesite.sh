@@ -8,6 +8,7 @@ pushd $DIR
 git pull
 
 source civicapi/venv/bin/activate
+pip install -r civicapi/requirements.txt
 SCRIPT_OUT=$(python civicapi/fetch.py civicapi/api.secret static/data.json)
 
 if [ "$SCRIPT_OUT" == "Update OK" ]; then
