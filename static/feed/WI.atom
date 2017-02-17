@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>WI</id>
   <title>WI's next election</title>
-  <updated>2017-02-05T16:53:11.844603+00:00</updated>
+  <updated>2017-02-17T17:00:11.493828+00:00</updated>
   <link href="https://when.vote/?WI" rel="alternate"/>
   <link href="https://when.vote/feed/WI.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>WI-election</id>
+    <title>New WI election: Wisconsin Spring Primary Election</title>
+    <updated>2017-02-17T17:00:11.493873+00:00</updated>
+    <content>Visit https://when.vote/?WI to see election date and registration deadlines</content>
+    <link href="https://when.vote/?WI" rel="alternate"/>
+    <published>2017-02-17T17:00:11.493896+00:00</published>
+  </entry>
 </feed>
