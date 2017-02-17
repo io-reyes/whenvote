@@ -14,9 +14,4 @@ SCRIPT_OUT=$(python civicapi/fetch.py civicapi/api.secret static/data.json)
 if [ "$SCRIPT_OUT" == "Update OK" ]; then
     git commit -a -m "Auto-update on $(date)"
     git push
-
-    pushd firebase
-    rsync -az --delete ../static/ public/
-    firebase deploy
-    popd
 fi
