@@ -276,9 +276,7 @@ $(document).ready(function() {
                 }
                 deadlineString += rwdLine('Request absentee by ') + absenteeDate;
             }
-            if(deadlineString) {
-                $('#electionDeadlines').html(deadlineString);
-            }
+            $('#electionDeadlines').html(deadlineString);
 
             showElectionData();
         } else {
