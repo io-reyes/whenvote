@@ -105,9 +105,9 @@ $(document).ready(function() {
         "Wyoming":"WY"
     };
 
-    // Set a 1.5 second timeout for ajax requests
+    // Set a 3 second timeout for ajax requests
     $.ajaxSetup({
-        timeout: 1500
+        timeout: 3000
     });
 
     // Read the data file

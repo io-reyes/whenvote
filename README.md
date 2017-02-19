@@ -41,7 +41,7 @@ freegeoip.net to determine your state from your IP address. This domain is on ma
 adblockers' lists.
 
 * freegeoip.net is being slow. In order to keep load times snappy, this site is set
-to give up trying to detect your state if it doesn't get that data within 1 second.
+to give up trying to detect your state if it doesn't get that data within 3 seconds.
 
 * You're browsing on a cellular connection. Mobile IP addresses might not be
 registered near your actual position.
