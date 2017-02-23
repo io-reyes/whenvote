@@ -196,13 +196,18 @@ $(document).ready(function() {
     function formatDate(date) {
         var daysUntilDate = daysUntil(date);
         var daysUntilDateStr = '';
-        if(daysUntilDate == 1) {
-            daysUntilDateStr = ' (in 1 day)';
-        } else if(daysUntilDate == 0 || daysUntilDate > 1) {    
-            daysUntilDateStr = ' (in ' + daysUntilDate + ' days)';
+
+        if(daysUntilDate > 1) {
+            daysUntilDateStr = rwdLine(' (in ' + daysUntilDate + ' days)');
+        } else if(daysUntilDate == 1) {
+            daysUntilDateStr = rwdLine(' (tomorrow)');
+        } else if(daysUntilDate == 0) {
+            daysUntilDateStr = rwdLine(' (TODAY!)');
+        } else {
+            daysUntilDateStr = '';
         }
 
-        return rwdLine(date.toDateString()) + rwdLine(daysUntilDateStr);
+        return rwdLine(date.toDateString()) + daysUntilDateStr;
     }
 
     function validDate(stateData, prefix) {
