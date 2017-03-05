@@ -1,5 +1,5 @@
 import requests
-from datetime import datetime
+from datetime import datetime,timezone
 
 class CivicAPI:
     def __init__(self, token):
@@ -55,7 +55,7 @@ class CivicAPI:
 
     def _has_date_passed(self, api_date):
         """Returns true if the date (in the API's YYYY-MM-DD format) is in the past"""
-        now = datetime.now()
+        now = datetime.now(timezone.utc)
         now_date_string = '%04d-%02d-%02d' % (now.year, now.month, now.day)
 
         return api_date < now_date_string

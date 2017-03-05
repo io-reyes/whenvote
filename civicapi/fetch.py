@@ -3,7 +3,7 @@ from icswrite import ICSWrite
 from feedwrite import FeedWrite
 from tweetwrite import TweetWrite
 
-from datetime import datetime
+from datetime import datetime,timezone
 
 import argparse
 import json
@@ -22,7 +22,7 @@ def is_valid_update(data_old, data_new):
     data_new_exists = data_new is not None and len(data_new) > 0
 
     if data_old_exists and data_new_exists and data_old != data_new:
-        current = datetime.now()
+        current = datetime.now(timezone.utc)
         old_upcoming = {state:data for state,data in data_old.items() if data['election_year'] >= current.year and data['election_month'] >= current.month and data['election_day'] >= current.day}
         old_upcoming_names = []
         for state,data in old_upcoming.items():
