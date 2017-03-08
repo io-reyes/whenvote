@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>NJ</id>
   <title>NJ's next election</title>
-  <updated>2017-02-05T07:09:19.207140+00:00</updated>
+  <updated>2017-03-08T16:08:01.058763+00:00</updated>
   <link href="https://when.vote/?NJ" rel="alternate"/>
   <link href="https://when.vote/feed/NJ.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>NJ-election</id>
     <title>New NJ election: New Jersey State Primary Elections</title>
-    <updated>2017-02-05T07:09:19.207174+00:00</updated>
+    <updated>2017-03-08T16:08:01.058803+00:00</updated>
     <content>Visit https://when.vote/?NJ to see election date and registration deadlines</content>
     <link href="https://when.vote/?NJ" rel="alternate"/>
-    <published>2017-02-05T07:09:19.207210+00:00</published>
+    <published>2017-03-08T16:08:01.058822+00:00</published>
   </entry>
 </feed>
