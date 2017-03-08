@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>CA</id>
   <title>CA's next election</title>
-  <updated>2017-03-08T16:08:01.054786+00:00</updated>
+  <updated>2017-03-08T16:10:32.410896+00:00</updated>
   <link href="https://when.vote/?CA" rel="alternate"/>
   <link href="https://when.vote/feed/CA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>CA-election</id>
     <title>New CA election: California Congressional District 34 Special Election</title>
-    <updated>2017-03-08T16:08:01.054844+00:00</updated>
+    <updated>2017-03-08T16:10:32.410936+00:00</updated>
     <content>Visit https://when.vote/?CA to see election date and registration deadlines</content>
     <link href="https://when.vote/?CA" rel="alternate"/>
-    <published>2017-03-08T16:08:01.054872+00:00</published>
+    <published>2017-03-08T16:10:32.410955+00:00</published>
   </entry>
 </feed>

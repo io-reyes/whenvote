@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>KS</id>
   <title>KS's next election</title>
-  <updated>2017-03-08T16:08:01.061484+00:00</updated>
+  <updated>2017-03-08T16:10:32.408798+00:00</updated>
   <link href="https://when.vote/?KS" rel="alternate"/>
   <link href="https://when.vote/feed/KS.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>KS-election</id>
     <title>New KS election: Kansas 4th District Special Election</title>
-    <updated>2017-03-08T16:08:01.061524+00:00</updated>
+    <updated>2017-03-08T16:10:32.408838+00:00</updated>
     <content>Visit https://when.vote/?KS to see election date and registration deadlines</content>
     <link href="https://when.vote/?KS" rel="alternate"/>
-    <published>2017-03-08T16:08:01.061543+00:00</published>
+    <published>2017-03-08T16:10:32.408856+00:00</published>
   </entry>
 </feed>
