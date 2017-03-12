@@ -18,8 +18,8 @@ test -f civicapi/api.secret >/dev/null 2>&1 || { echo 'ERROR: Civic API secrets 
 test $# -eq 1 >/dev/null 2>&1 || { echo 'ERROR: Firebase token must be passed as a parameter to this script' >&2; exit 1; }
 export FIREBASE_TOKEN="$1"
 
-# Set up pre-commit hooks
-if [ ! -L .git/hooks/pre-commit ]; then
+# Set up pre-push hooks
+if [ ! -L .git/hooks/pre-push ]; then
         echo 'Setting up pre-push hook'
         echo '------------------------'
 
