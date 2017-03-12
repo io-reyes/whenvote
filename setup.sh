@@ -20,11 +20,11 @@ export FIREBASE_TOKEN="$1"
 
 # Set up pre-commit hooks
 if [ ! -L .git/hooks/pre-commit ]; then
-        echo 'Setting up pre-commit hook'
-        echo '--------------------------'
+        echo 'Setting up pre-push hook'
+        echo '------------------------'
 
         pushd .git/hooks
-        ln -s $DIR/hooks/pre-commit
+        ln -s $DIR/hooks/pre-push
         popd
 
         echo ''
