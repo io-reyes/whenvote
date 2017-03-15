@@ -62,8 +62,9 @@ echo '--------------------------'
 
 echo '#!/bin/bash' > $WRAPPER_FILE
 echo '' >> $WRAPPER_FILE
-echo "FIREBASE_TOKEN='$FIREBASE_TOKEN' $DIR/updatesite.sh" >> $WRAPPER_FILE
+echo "PATH=\"$PATH\" FIREBASE_TOKEN='$FIREBASE_TOKEN' $DIR/updatesite.sh" >> $WRAPPER_FILE
 echo '' >> $WRAPPER_FILE
+chmod u+x $WRAPPER_FILE
 
 echo "NOTE: Please add $WRAPPER_FILE to cron in order to schedule automatic site updates"
 
