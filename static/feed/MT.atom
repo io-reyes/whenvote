@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>MT</id>
   <title>MT's next election</title>
-  <updated>2017-02-05T16:53:11.841808+00:00</updated>
+  <updated>2017-03-15T08:05:20.990285+00:00</updated>
   <link href="https://when.vote/?MT" rel="alternate"/>
   <link href="https://when.vote/feed/MT.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>MT-election</id>
+    <title>New MT election: Montana US Representative Special Election</title>
+    <updated>2017-03-15T08:05:20.990347+00:00</updated>
+    <content>Visit https://when.vote/?MT to see election date and registration deadlines</content>
+    <link href="https://when.vote/?MT" rel="alternate"/>
+    <published>2017-03-15T08:05:20.990385+00:00</published>
+  </entry>
 </feed>
