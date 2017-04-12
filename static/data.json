@@ -1,142 +1,128 @@
 {
-    "VA": {
-        "absentee_month": 6,
-        "election_names": [
-            "Virginia State Primary Election"
-        ],
-        "absentee_year": 2017,
-        "absentee_day": 6,
-        "election_year": 2017,
-        "register_year": 2017,
-        "election_month": 6,
-        "register_day": 22,
-        "election_day": 13,
-        "register_month": 5
-    },
-    "MT": {
-        "absentee_month": 5,
-        "election_names": [
-            "Montana US Representative Special Election"
-        ],
-        "absentee_year": 2017,
-        "absentee_day": 24,
-        "election_year": 2017,
-        "register_year": 2017,
-        "election_month": 5,
-        "register_day": 25,
-        "election_day": 25,
-        "register_month": 4
-    },
-    "NH": {
-        "absentee_month": 5,
-        "election_names": [
-            "New Hampshire State Representative Election"
-        ],
-        "absentee_year": 2017,
-        "absentee_day": 22,
-        "election_year": 2017,
-        "register_year": 2017,
-        "election_month": 5,
-        "register_day": 16,
-        "election_day": 23,
-        "register_month": 5
-    },
     "OK": {
-        "absentee_month": 5,
+        "register_month": 4,
+        "absentee_day": 3,
+        "absentee_year": 2017,
+        "election_month": 5,
         "election_names": [
             "Oklahoma House District 28 Special Election"
         ],
-        "absentee_year": 2017,
-        "absentee_day": 3,
         "election_year": 2017,
         "register_year": 2017,
-        "election_month": 5,
-        "register_day": 14,
         "election_day": 9,
-        "register_month": 4
-    },
-    "GA": {
-        "absentee_month": 4,
-        "election_names": [
-            "Georgia 6th Congressional District Special Election"
-        ],
-        "absentee_year": 2017,
-        "absentee_day": 14,
-        "election_year": 2017,
-        "register_year": -1,
-        "election_month": 4,
-        "register_day": -1,
-        "election_day": 18,
-        "register_month": -1
+        "register_day": 14,
+        "absentee_month": 5
     },
     "AK": {
-        "absentee_month": 9,
+        "register_month": 9,
+        "absentee_day": 25,
+        "absentee_year": 2017,
+        "election_month": 10,
         "election_names": [
             "Alaska Regional Education Attendance Area Elections"
         ],
-        "absentee_year": 2017,
-        "absentee_day": 25,
         "election_year": 2017,
         "register_year": 2017,
-        "election_month": 10,
-        "register_day": 3,
         "election_day": 3,
-        "register_month": 9
+        "register_day": 3,
+        "absentee_month": 9
     },
-    "KS": {
-        "absentee_month": -1,
-        "election_names": [
-            "Kansas 4th District Special Election"
-        ],
-        "absentee_year": -1,
-        "absentee_day": -1,
-        "election_year": 2017,
-        "register_year": -1,
-        "election_month": 4,
-        "register_day": -1,
-        "election_day": 11,
-        "register_month": -1
-    },
-    "NJ": {
-        "absentee_month": 5,
-        "election_names": [
-            "New Jersey State Primary Elections"
-        ],
+    "VA": {
+        "register_month": 5,
+        "absentee_day": 6,
         "absentee_year": 2017,
-        "absentee_day": 30,
+        "election_month": 6,
+        "election_names": [
+            "Virginia State Primary Election"
+        ],
         "election_year": 2017,
         "register_year": 2017,
-        "election_month": 6,
-        "register_day": 16,
-        "election_day": 6,
-        "register_month": 5
+        "election_day": 13,
+        "register_day": 22,
+        "absentee_month": 6
     },
     "CO": {
-        "absentee_month": -1,
+        "register_month": 10,
+        "absentee_day": -1,
+        "absentee_year": -1,
+        "election_month": 11,
         "election_names": [
             "Colorado Coordinated Election"
         ],
-        "absentee_year": -1,
-        "absentee_day": -1,
         "election_year": 2017,
         "register_year": 2017,
-        "election_month": 11,
-        "register_day": 30,
         "election_day": 7,
-        "register_month": 10
+        "register_day": 30,
+        "absentee_month": -1
+    },
+    "GA": {
+        "register_month": -1,
+        "absentee_day": 14,
+        "absentee_year": 2017,
+        "election_month": 4,
+        "election_names": [
+            "Georgia 6th Congressional District Special Election"
+        ],
+        "election_year": 2017,
+        "register_year": -1,
+        "election_day": 18,
+        "register_day": -1,
+        "absentee_month": 4
+    },
+    "NH": {
+        "register_month": 5,
+        "absentee_day": 22,
+        "absentee_year": 2017,
+        "election_month": 5,
+        "election_names": [
+            "New Hampshire State Representative Election"
+        ],
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 23,
+        "register_day": 16,
+        "absentee_month": 5
+    },
+    "MT": {
+        "register_month": 4,
+        "absentee_day": 24,
+        "absentee_year": 2017,
+        "election_month": 5,
+        "election_names": [
+            "Montana US Representative Special Election"
+        ],
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 25,
+        "register_day": 25,
+        "absentee_month": 5
     },
     "SC": {
-        "absentee_month": 4,
+        "register_month": -1,
+        "absentee_day": 28,
+        "absentee_year": 2017,
+        "election_month": 5,
         "election_names": [
             "South Carolina Special Primary Election"
         ],
-        "absentee_year": 2017,
-        "absentee_day": 28,
         "election_year": 2017,
         "register_year": -1,
-        "election_month": 5,
-        "register_day": -1,
         "election_day": 2,
-        "register_month": -1
+        "register_day": -1,
+        "absentee_month": 4
+    },
+    "NJ": {
+        "register_month": 5,
+        "absentee_day": 30,
+        "absentee_year": 2017,
+        "election_month": 6,
+        "election_names": [
+            "New Jersey State Primary Elections"
+        ],
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 6,
+        "register_day": 16,
+        "absentee_month": 5
     }
 }
