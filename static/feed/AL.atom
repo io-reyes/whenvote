@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>AL</id>
   <title>AL's next election</title>
-  <updated>2017-02-05T07:09:19.199362+00:00</updated>
+  <updated>2017-05-09T08:05:10.413426+00:00</updated>
   <link href="https://when.vote/?AL" rel="alternate"/>
   <link href="https://when.vote/feed/AL.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>AL-election</id>
-    <title>New AL election: Alabama House District 58 Special Primary Election</title>
-    <updated>2017-02-05T07:09:19.199435+00:00</updated>
+    <title>New AL election: US Senate Special Election</title>
+    <updated>2017-05-09T08:05:10.413533+00:00</updated>
     <content>Visit https://when.vote/?AL to see election date and registration deadlines</content>
     <link href="https://when.vote/?AL" rel="alternate"/>
-    <published>2017-02-05T07:09:19.199464+00:00</published>
+    <published>2017-05-09T08:05:10.413589+00:00</published>
   </entry>
 </feed>
