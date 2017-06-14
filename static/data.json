@@ -1,100 +1,101 @@
 {
-    "AK": {
-        "register_day": 3,
-        "election_month": 10,
-        "register_month": 9,
-        "election_names": [
-            "Alaska Regional Education Attendance Area Elections"
-        ],
-        "absentee_day": 25,
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 9,
-        "election_day": 3,
-        "register_year": 2017
-    },
-    "CO": {
-        "register_day": 30,
-        "election_month": 11,
-        "register_month": 10,
-        "election_names": [
-            "Colorado Coordinated Election"
-        ],
-        "absentee_day": -1,
-        "election_year": 2017,
-        "absentee_year": -1,
-        "absentee_month": -1,
-        "election_day": 7,
-        "register_year": 2017
-    },
-    "GA": {
-        "register_day": -1,
-        "election_month": 6,
-        "register_month": -1,
-        "election_names": [
-            "Georgia 6th Congressional District Special Election"
-        ],
-        "absentee_day": 16,
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 6,
-        "election_day": 20,
-        "register_year": -1
-    },
-    "NJ": {
-        "register_day": 17,
-        "election_month": 11,
-        "register_month": 10,
-        "election_names": [
-            "New Jersey State General Election"
-        ],
-        "absentee_day": 31,
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 10,
-        "election_day": 7,
-        "register_year": 2017
-    },
     "SC": {
+        "absentee_year": 2017,
         "register_day": -1,
+        "absentee_day": 16,
         "election_month": 6,
+        "election_day": 20,
         "register_month": -1,
+        "register_year": -1,
+        "election_year": 2017,
         "election_names": [
             "South Carolina Special Election"
         ],
-        "absentee_day": 16,
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 6,
-        "election_day": 20,
-        "register_year": -1
+        "absentee_month": 6
     },
-    "VA": {
-        "register_day": -1,
-        "election_month": 6,
-        "register_month": -1,
-        "election_names": [
-            "Virginia State Primary Election"
-        ],
-        "absentee_day": -1,
+    "AK": {
+        "absentee_year": 2017,
+        "register_day": 3,
+        "absentee_day": 25,
+        "election_month": 10,
+        "election_day": 3,
+        "register_month": 9,
+        "register_year": 2017,
         "election_year": 2017,
-        "absentee_year": -1,
-        "absentee_month": -1,
-        "election_day": 13,
-        "register_year": -1
+        "election_names": [
+            "Alaska Regional Education Attendance Area Elections"
+        ],
+        "absentee_month": 9
     },
     "AL": {
+        "absentee_year": 2017,
         "register_day": 31,
+        "absentee_day": 10,
         "election_month": 8,
+        "election_day": 15,
         "register_month": 7,
+        "register_year": 2017,
+        "election_year": 2017,
         "election_names": [
             "US Senate Special Election"
         ],
-        "absentee_day": 10,
+        "absentee_month": 8
+    },
+    "CO": {
+        "absentee_year": -1,
+        "register_day": 30,
+        "absentee_day": -1,
+        "election_month": 11,
+        "election_day": 7,
+        "register_month": 10,
+        "register_year": 2017,
         "election_year": 2017,
+        "election_names": [
+            "Colorado Coordinated Election"
+        ],
+        "absentee_month": -1
+    },
+    "VA": {
         "absentee_year": 2017,
-        "absentee_month": 8,
-        "election_day": 15,
-        "register_year": 2017
+        "register_day": 16,
+        "absentee_day": 31,
+        "election_month": 11,
+        "election_day": 7,
+        "register_month": 10,
+        "register_year": 2017,
+        "election_year": 2017,
+        "election_names": [
+            "Virginia Gubernatorial Election",
+            "Virginia House of Delegates Elections"
+        ],
+        "absentee_month": 10
+    },
+    "GA": {
+        "absentee_year": 2017,
+        "register_day": -1,
+        "absentee_day": 16,
+        "election_month": 6,
+        "election_day": 20,
+        "register_month": -1,
+        "register_year": -1,
+        "election_year": 2017,
+        "election_names": [
+            "Georgia 6th Congressional District Special Election"
+        ],
+        "absentee_month": 6
+    },
+    "NJ": {
+        "absentee_year": 2017,
+        "register_day": 17,
+        "absentee_day": 31,
+        "election_month": 11,
+        "election_day": 7,
+        "register_month": 10,
+        "register_year": 2017,
+        "election_year": 2017,
+        "election_names": [
+            "New Jersey State General Election"
+        ],
+        "absentee_month": 10
     }
 }

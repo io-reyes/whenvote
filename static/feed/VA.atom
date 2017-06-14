@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>VA</id>
   <title>VA's next election</title>
-  <updated>2017-03-08T16:10:32.405681+00:00</updated>
+  <updated>2017-06-14T08:05:12.564827+00:00</updated>
   <link href="https://when.vote/?VA" rel="alternate"/>
   <link href="https://when.vote/feed/VA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>VA-election</id>
-    <title>New VA election: Virginia State Primary Election</title>
-    <updated>2017-03-08T16:10:32.405721+00:00</updated>
+    <title>New VA election: Virginia Gubernatorial Election, Virginia House of Delegates Elections</title>
+    <updated>2017-06-14T08:05:12.564912+00:00</updated>
     <content>Visit https://when.vote/?VA to see election date and registration deadlines</content>
     <link href="https://when.vote/?VA" rel="alternate"/>
-    <published>2017-03-08T16:10:32.405739+00:00</published>
+    <published>2017-06-14T08:05:12.564953+00:00</published>
   </entry>
 </feed>
