@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>RI</id>
   <title>RI's next election</title>
-  <updated>2017-02-05T16:53:11.843438+00:00</updated>
+  <updated>2017-07-28T08:05:11.486328+00:00</updated>
   <link href="https://when.vote/?RI" rel="alternate"/>
   <link href="https://when.vote/feed/RI.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>RI-election</id>
+    <title>New RI election: Rhode Island State Senate Election</title>
+    <updated>2017-07-28T08:05:11.486409+00:00</updated>
+    <content>Visit https://when.vote/?RI to see election date and registration deadlines</content>
+    <link href="https://when.vote/?RI" rel="alternate"/>
+    <published>2017-07-28T08:05:11.486446+00:00</published>
+  </entry>
 </feed>
