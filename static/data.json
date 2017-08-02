@@ -1,87 +1,87 @@
 {
-    "NJ": {
-        "election_month": 11,
-        "absentee_month": 10,
-        "register_day": 17,
-        "register_month": 10,
+    "RI": {
         "election_names": [
-            "New Jersey State General Election"
+            "Rhode Island State Senate Election"
         ],
         "election_year": 2017,
-        "absentee_year": 2017,
-        "register_year": 2017,
-        "election_day": 7,
-        "absentee_day": 31
+        "register_day": -1,
+        "absentee_year": -1,
+        "register_year": -1,
+        "register_month": -1,
+        "absentee_month": -1,
+        "election_month": 8,
+        "absentee_day": -1,
+        "election_day": 22
     },
     "AK": {
-        "election_month": 10,
-        "absentee_month": 9,
-        "register_day": 3,
-        "register_month": 9,
         "election_names": [
             "Alaska Regional Education Attendance Area Elections"
         ],
         "election_year": 2017,
+        "register_day": 3,
         "absentee_year": 2017,
         "register_year": 2017,
-        "election_day": 3,
-        "absentee_day": 25
+        "register_month": 9,
+        "absentee_month": 9,
+        "election_month": 10,
+        "absentee_day": 25,
+        "election_day": 3
+    },
+    "NJ": {
+        "election_names": [
+            "New Jersey State General Election"
+        ],
+        "election_year": 2017,
+        "register_day": 17,
+        "absentee_year": 2017,
+        "register_year": 2017,
+        "register_month": 10,
+        "absentee_month": 10,
+        "election_month": 11,
+        "absentee_day": 31,
+        "election_day": 7
     },
     "AL": {
-        "election_month": 8,
-        "absentee_month": 8,
-        "register_day": -1,
-        "register_month": -1,
         "election_names": [
             "US Senate Special Election"
         ],
         "election_year": 2017,
+        "register_day": -1,
         "absentee_year": 2017,
         "register_year": -1,
-        "election_day": 15,
-        "absentee_day": 10
+        "register_month": -1,
+        "absentee_month": 8,
+        "election_month": 8,
+        "absentee_day": 10,
+        "election_day": 15
+    },
+    "CO": {
+        "election_names": [
+            "Colorado Coordinated Election"
+        ],
+        "election_year": 2017,
+        "register_day": 30,
+        "absentee_year": -1,
+        "register_year": 2017,
+        "register_month": 10,
+        "absentee_month": -1,
+        "election_month": 11,
+        "absentee_day": -1,
+        "election_day": 7
     },
     "VA": {
-        "election_month": 11,
-        "absentee_month": 10,
-        "register_day": 16,
-        "register_month": 10,
         "election_names": [
             "Virginia Gubernatorial Election",
             "Virginia House of Delegates Elections"
         ],
         "election_year": 2017,
+        "register_day": 16,
         "absentee_year": 2017,
         "register_year": 2017,
-        "election_day": 7,
-        "absentee_day": 31
-    },
-    "CO": {
-        "election_month": 11,
-        "absentee_month": -1,
-        "register_day": 30,
         "register_month": 10,
-        "election_names": [
-            "Colorado Coordinated Election"
-        ],
-        "election_year": 2017,
-        "absentee_year": -1,
-        "register_year": 2017,
-        "election_day": 7,
-        "absentee_day": -1
-    },
-    "RI": {
-        "election_month": 8,
-        "absentee_month": 8,
-        "register_day": -1,
-        "register_month": -1,
-        "election_names": [
-            "Rhode Island State Senate Election"
-        ],
-        "election_year": 2017,
-        "absentee_year": 2017,
-        "register_year": -1,
-        "election_day": 22,
-        "absentee_day": 1
+        "absentee_month": 10,
+        "election_month": 11,
+        "absentee_day": 31,
+        "election_day": 7
     }
 }
