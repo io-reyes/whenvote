@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>UT</id>
   <title>UT's next election</title>
-  <updated>2017-02-05T16:53:11.844038+00:00</updated>
+  <updated>2017-08-08T08:05:09.759291+00:00</updated>
   <link href="https://when.vote/?UT" rel="alternate"/>
   <link href="https://when.vote/feed/UT.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>UT-election</id>
+    <title>New UT election: US House of Representatives Special Election</title>
+    <updated>2017-08-08T08:05:09.759361+00:00</updated>
+    <content>Visit https://when.vote/?UT to see election date and registration deadlines</content>
+    <link href="https://when.vote/?UT" rel="alternate"/>
+    <published>2017-08-08T08:05:09.759393+00:00</published>
+  </entry>
 </feed>
