@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>MS</id>
   <title>MS's next election</title>
-  <updated>2017-02-05T16:53:11.841492+00:00</updated>
+  <updated>2017-08-11T08:05:16.490295+00:00</updated>
   <link href="https://when.vote/?MS" rel="alternate"/>
   <link href="https://when.vote/feed/MS.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>MS-election</id>
+    <title>New MS election: Mississippi State Legislature Special Election</title>
+    <updated>2017-08-11T08:05:16.490365+00:00</updated>
+    <content>Visit https://when.vote/?MS to see election date and registration deadlines</content>
+    <link href="https://when.vote/?MS" rel="alternate"/>
+    <published>2017-08-11T08:05:16.490393+00:00</published>
+  </entry>
 </feed>

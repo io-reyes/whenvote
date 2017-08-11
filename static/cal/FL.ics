@@ -1,4 +1,25 @@
 BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20170811T080511Z
+DTSTART:20170828T070000
+DURATION:PT12H
+SUMMARY:Registration deadline: State Legislature Special Election\, State Legislature Special Election
+UID:bd4d4eda-b25f-4a75-89df-fe0ed9ba90cb@bd4d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170811T080511Z
+DTSTART:20170920T070000
+DURATION:PT12H
+SUMMARY:Absentee request deadline: State Legislature Special Election\, State Legislature Special Election
+UID:21129747-0234-4b97-922d-dae6cc7ea8c9@2112.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170811T080511Z
+DTSTART:20170926T070000
+DURATION:PT12H
+SUMMARY:Election: State Legislature Special Election\, State Legislature Special Election
+UID:3b223afc-e10b-4d41-9a80-281a9fc08021@3b22.org
+END:VEVENT
 END:VCALENDAR
