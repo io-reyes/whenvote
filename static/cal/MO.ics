@@ -2,24 +2,24 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20170823T080519Z
+DTSTAMP:20170824T080517Z
 DTSTART:20171011T070000
 DURATION:PT12H
 SUMMARY:Registration deadline: Missouri State Legislature Special Election\, Missouri State Legislature Special Election
-UID:5e78cbe6-ade8-4702-9a76-11679599eff1@5e78.org
+UID:2f17dccb-ac0e-4cce-96fb-72f7e3291821@2f17.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20170823T080519Z
+DTSTAMP:20170824T080517Z
 DTSTART:20171101T070000
 DURATION:PT12H
 SUMMARY:Absentee request deadline: Missouri State Legislature Special Election\, Missouri State Legislature Special Election
-UID:dce73c18-b555-43c0-a48a-b8fabcf510bd@dce7.org
+UID:c5f09d35-21a0-4fef-ad6f-4147abb4d5b7@c5f0.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20170823T080519Z
+DTSTAMP:20170824T080517Z
 DTSTART:20171107T070000
 DURATION:PT12H
 SUMMARY:Election: Missouri State Legislature Special Election\, Missouri State Legislature Special Election
-UID:19bfff3c-d6fc-44b3-bfd0-d42b3fd38d84@19bf.org
+UID:8a63fd48-2375-440a-b395-66dc1579a84d@8a63.org
 END:VEVENT
 END:VCALENDAR
