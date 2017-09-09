@@ -2,24 +2,24 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20170907T080511Z
+DTSTAMP:20170909T080511Z
 DTSTART:20171120T070000
 DURATION:PT12H
-SUMMARY:Registration deadline: California State Assembley Special Election
-UID:291fd470-5ad7-4ee4-a28e-a2d9ebcef044@291f.org
+SUMMARY:Registration deadline: California State Assembly Special Election
+UID:801b3ce1-664a-49d7-b7b6-d58c0b713218@801b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20170907T080511Z
+DTSTAMP:20170909T080511Z
 DTSTART:20171128T070000
 DURATION:PT12H
-SUMMARY:Absentee request deadline: California State Assembley Special Election
-UID:a52ff1c2-2673-4c61-a930-65842e4fdc1e@a52f.org
+SUMMARY:Absentee request deadline: California State Assembly Special Election
+UID:034c234c-5fd7-49ef-a06d-3c240179090f@034c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20170907T080511Z
+DTSTAMP:20170909T080511Z
 DTSTART:20171205T070000
 DURATION:PT12H
-SUMMARY:Election: California State Assembley Special Election
-UID:2d89929b-42a2-4cd4-82be-4ed1aa2f3a7c@2d89.org
+SUMMARY:Election: California State Assembly Special Election
+UID:88d84068-adb7-46e6-bb70-f259bbe8951b@88d8.org
 END:VEVENT
 END:VCALENDAR
