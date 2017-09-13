@@ -2,10 +2,24 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20170912T080510Z
-DTSTART:20170912T070000
+DTSTAMP:20170913T080509Z
+DTSTART:20171020T070000
 DURATION:PT12H
-SUMMARY:Election: Oklahoma State House Special Election
-UID:ba878a81-0415-4e88-b6df-f732254b7727@ba87.org
+SUMMARY:Registration deadline: Oklahoma State House Special Election\, Oklahoma State House Special Election
+UID:fa4ee935-68a6-4571-a6a0-5860efc9d6e0@fa4e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170913T080509Z
+DTSTART:20171108T070000
+DURATION:PT12H
+SUMMARY:Absentee request deadline: Oklahoma State House Special Election\, Oklahoma State House Special Election
+UID:ba300746-66da-4031-8ad1-04c0ec97ef7f@ba30.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20170913T080509Z
+DTSTART:20171114T070000
+DURATION:PT12H
+SUMMARY:Election: Oklahoma State House Special Election\, Oklahoma State House Special Election
+UID:4294d55f-7fcd-4602-8338-7250b490e410@4294.org
 END:VEVENT
 END:VCALENDAR
