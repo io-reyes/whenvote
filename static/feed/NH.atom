@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>NH</id>
   <title>NH's next election</title>
-  <updated>2017-08-11T08:05:32.373656+00:00</updated>
+  <updated>2017-09-27T08:05:11.905217+00:00</updated>
   <link href="https://when.vote/?NH" rel="alternate"/>
   <link href="https://when.vote/feed/NH.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>NH-election</id>
-    <title>New NH election: New Hampshire State Representative Election</title>
-    <updated>2017-08-11T08:05:32.373755+00:00</updated>
+    <title>New NH election: New Hampshire State Representative Election, New Hampshire State Representative Election</title>
+    <updated>2017-09-27T08:05:11.905322+00:00</updated>
     <content>Visit https://when.vote/?NH to see election date and registration deadlines</content>
     <link href="https://when.vote/?NH" rel="alternate"/>
-    <published>2017-08-11T08:05:32.373791+00:00</published>
+    <published>2017-09-27T08:05:11.905375+00:00</published>
   </entry>
 </feed>
