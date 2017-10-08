@@ -2,24 +2,24 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171005T080511Z
+DTSTAMP:20171008T080511Z
 DTSTART:20171031T070000
 DURATION:PT12H
 SUMMARY:Registration deadline: New Hampshire State Representative Election\, New Hampshire State Representative Election
-UID:37c57c19-44e1-44a0-ab2f-adb0186add91@37c5.org
+UID:e33c2ef1-7293-42cb-91a8-0e49b66dfcea@e33c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171005T080511Z
+DTSTAMP:20171008T080511Z
 DTSTART:20171106T070000
 DURATION:PT12H
 SUMMARY:Absentee request deadline: New Hampshire State Representative Election\, New Hampshire State Representative Election
-UID:e0585da9-e7db-4f88-b1c2-35a55d01a394@e058.org
+UID:4d7b2e50-cdcf-4e2c-9d03-5579c89bbe37@4d7b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171005T080511Z
+DTSTAMP:20171008T080511Z
 DTSTART:20171107T070000
 DURATION:PT12H
 SUMMARY:Election: New Hampshire State Representative Election\, New Hampshire State Representative Election
-UID:14bb86c4-f4cf-45f3-a953-635848de8aa1@14bb.org
+UID:76a29a5c-f810-47f1-8ac8-1fd960524000@76a2.org
 END:VEVENT
 END:VCALENDAR
