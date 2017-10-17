@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>MD</id>
   <title>MD's next election</title>
-  <updated>2017-02-05T16:53:11.841026+00:00</updated>
+  <updated>2017-10-17T08:05:11.959737+00:00</updated>
   <link href="https://when.vote/?MD" rel="alternate"/>
   <link href="https://when.vote/feed/MD.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>MD-election</id>
+    <title>New MD election: Maryland Primary Election</title>
+    <updated>2017-10-17T08:05:11.959808+00:00</updated>
+    <content>Visit https://when.vote/?MD to see election date and registration deadlines</content>
+    <link href="https://when.vote/?MD" rel="alternate"/>
+    <published>2017-10-17T08:05:11.959843+00:00</published>
+  </entry>
 </feed>
