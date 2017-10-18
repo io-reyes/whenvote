@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171017T080511Z
+DTSTAMP:20171018T080509Z
 DTSTART:20171031T070000
 DURATION:PT12H
 SUMMARY:Absentee request deadline: Virginia Gubernatorial Election\, Virginia House of Delegates Elections
-UID:bdabc75c-8198-460d-8a1e-03d28a08daf8@bdab.org
+UID:5d99da4a-cbad-4ca2-812c-0c63dbd7171f@5d99.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171017T080511Z
+DTSTAMP:20171018T080509Z
 DTSTART:20171107T070000
 DURATION:PT12H
 SUMMARY:Election: Virginia Gubernatorial Election\, Virginia House of Delegates Elections
-UID:da093ddb-dcce-4fe8-8aad-02483292cc74@da09.org
+UID:32b801f2-23c5-49fa-a9cd-5de55755b7fd@32b8.org
 END:VEVENT
 END:VCALENDAR
