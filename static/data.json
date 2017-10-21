@@ -1,217 +1,217 @@
 {
-    "CA": {
-        "election_names": [
-            "California State Assembly Special Election"
-        ],
-        "register_day": 20,
-        "absentee_day": 28,
-        "register_month": 11,
-        "register_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 11,
-        "election_day": 5,
-        "election_month": 12,
-        "election_year": 2017
-    },
-    "MS": {
-        "election_names": [
-            "Mississippi State Legislature Special Election"
-        ],
-        "register_day": -1,
-        "absentee_day": -1,
-        "register_month": -1,
-        "register_year": -1,
-        "absentee_year": -1,
-        "absentee_month": -1,
-        "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
-    },
-    "NH": {
-        "election_names": [
-            "New Hampshire State Representative Election",
-            "New Hampshire State Representative Election"
-        ],
-        "register_day": 31,
-        "absentee_day": 6,
-        "register_month": 10,
-        "register_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 11,
-        "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
-    },
-    "FL": {
-        "election_names": [
-            "City of Orlando Run-Off Election"
-        ],
-        "register_day": 20,
-        "absentee_day": 13,
-        "register_month": 11,
-        "register_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 12,
-        "election_day": 19,
-        "election_month": 12,
-        "election_year": 2017
-    },
-    "MI": {
-        "election_names": [
-            "Michigan State Legislature Special Election"
-        ],
-        "register_day": -1,
-        "absentee_day": 4,
-        "register_month": -1,
-        "register_year": -1,
-        "absentee_year": 2017,
-        "absentee_month": 11,
-        "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
-    },
-    "AL": {
-        "election_names": [
-            "US Senate Special Election"
-        ],
-        "register_day": 27,
-        "absentee_day": 7,
-        "register_month": 11,
-        "register_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 12,
-        "election_day": 12,
-        "election_month": 12,
-        "election_year": 2017
-    },
-    "MO": {
-        "election_names": [
-            "Missouri State Legislature Special Election",
-            "Missouri State Legislature Special Election"
-        ],
-        "register_day": -1,
-        "absentee_day": 1,
-        "register_month": -1,
-        "register_year": -1,
-        "absentee_year": 2017,
-        "absentee_month": 11,
-        "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
-    },
-    "UT": {
-        "election_names": [
-            "US House of Representatives Special Election"
-        ],
-        "register_day": 31,
-        "absentee_day": 2,
-        "register_month": 10,
-        "register_year": 2017,
-        "absentee_year": 2017,
-        "absentee_month": 11,
-        "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
-    },
-    "WA": {
-        "election_names": [
-            "State Legislature Special Election",
-            "State Legislature Special Election"
-        ],
-        "register_day": 30,
-        "absentee_day": -1,
-        "register_month": 10,
-        "register_year": 2017,
-        "absentee_year": -1,
-        "absentee_month": -1,
-        "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
-    },
-    "NJ": {
-        "election_names": [
-            "New Jersey State General Election"
-        ],
-        "register_day": -1,
-        "absentee_day": 31,
-        "register_month": -1,
-        "register_year": -1,
-        "absentee_year": 2017,
-        "absentee_month": 10,
-        "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
-    },
     "VA": {
+        "absentee_day": 31,
+        "absentee_year": 2017,
+        "election_month": 11,
         "election_names": [
             "Virginia Gubernatorial Election",
             "Virginia House of Delegates Elections"
         ],
         "register_day": -1,
-        "absentee_day": 31,
-        "register_month": -1,
-        "register_year": -1,
-        "absentee_year": 2017,
         "absentee_month": 10,
+        "election_year": 2017,
+        "register_year": -1,
         "election_day": 7,
-        "election_month": 11,
-        "election_year": 2017
+        "register_month": -1
     },
-    "OK": {
-        "election_names": [
-            "Oklahoma State House Special Election",
-            "Oklahoma State House Special Election"
-        ],
-        "register_day": 20,
-        "absentee_day": 8,
-        "register_month": 10,
-        "register_year": 2017,
+    "AL": {
+        "absentee_day": 7,
         "absentee_year": 2017,
-        "absentee_month": 11,
-        "election_day": 14,
+        "election_month": 12,
+        "election_names": [
+            "US Senate Special Election"
+        ],
+        "register_day": 27,
+        "absentee_month": 12,
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 12,
+        "register_month": 11
+    },
+    "MO": {
+        "absentee_day": 1,
+        "absentee_year": 2017,
         "election_month": 11,
-        "election_year": 2017
+        "election_names": [
+            "Missouri State Legislature Special Election",
+            "Missouri State Legislature Special Election"
+        ],
+        "register_day": -1,
+        "absentee_month": 11,
+        "election_year": 2017,
+        "register_year": -1,
+        "election_day": 7,
+        "register_month": -1
     },
     "CO": {
+        "absentee_day": -1,
+        "absentee_year": -1,
+        "election_month": 11,
         "election_names": [
             "Colorado Coordinated Election"
         ],
         "register_day": 30,
-        "absentee_day": -1,
-        "register_month": 10,
-        "register_year": 2017,
-        "absentee_year": -1,
         "absentee_month": -1,
+        "election_year": 2017,
+        "register_year": 2017,
         "election_day": 7,
+        "register_month": 10
+    },
+    "MI": {
+        "absentee_day": 4,
+        "absentee_year": 2017,
         "election_month": 11,
-        "election_year": 2017
+        "election_names": [
+            "Michigan State Legislature Special Election"
+        ],
+        "register_day": -1,
+        "absentee_month": 11,
+        "election_year": 2017,
+        "register_year": -1,
+        "election_day": 7,
+        "register_month": -1
+    },
+    "WA": {
+        "absentee_day": -1,
+        "absentee_year": -1,
+        "election_month": 11,
+        "election_names": [
+            "State Legislature Special Election",
+            "State Legislature Special Election"
+        ],
+        "register_day": 30,
+        "absentee_month": -1,
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 7,
+        "register_month": 10
+    },
+    "NJ": {
+        "absentee_day": 31,
+        "absentee_year": 2017,
+        "election_month": 11,
+        "election_names": [
+            "New Jersey State General Election"
+        ],
+        "register_day": -1,
+        "absentee_month": 10,
+        "election_year": 2017,
+        "register_year": -1,
+        "election_day": 7,
+        "register_month": -1
+    },
+    "MS": {
+        "absentee_day": -1,
+        "absentee_year": -1,
+        "election_month": 11,
+        "election_names": [
+            "Mississippi State Legislature Special Election"
+        ],
+        "register_day": -1,
+        "absentee_month": -1,
+        "election_year": 2017,
+        "register_year": -1,
+        "election_day": 7,
+        "register_month": -1
+    },
+    "CA": {
+        "absentee_day": 28,
+        "absentee_year": 2017,
+        "election_month": 12,
+        "election_names": [
+            "California State Assembly Special Election"
+        ],
+        "register_day": 20,
+        "absentee_month": 11,
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 5,
+        "register_month": 11
     },
     "MD": {
+        "absentee_day": 19,
+        "absentee_year": 2018,
+        "election_month": 6,
         "election_names": [
             "Maryland Primary Election"
         ],
         "register_day": 5,
-        "absentee_day": 19,
-        "register_month": 6,
-        "register_year": 2018,
-        "absentee_year": 2018,
         "absentee_month": 6,
+        "election_year": 2018,
+        "register_year": 2018,
         "election_day": 26,
-        "election_month": 6,
-        "election_year": 2018
+        "register_month": 6
     },
     "MA": {
+        "absentee_day": 6,
+        "absentee_year": 2017,
+        "election_month": 11,
         "election_names": [
             "Massachusetts State Legislature Special Election"
         ],
         "register_day": -1,
-        "absentee_day": 6,
-        "register_month": -1,
-        "register_year": -1,
-        "absentee_year": 2017,
         "absentee_month": 11,
+        "election_year": 2017,
+        "register_year": -1,
         "election_day": 7,
+        "register_month": -1
+    },
+    "OK": {
+        "absentee_day": 8,
+        "absentee_year": 2017,
         "election_month": 11,
-        "election_year": 2017
+        "election_names": [
+            "Oklahoma State House Special Election",
+            "Oklahoma State House Special Election"
+        ],
+        "register_day": -1,
+        "absentee_month": 11,
+        "election_year": 2017,
+        "register_year": -1,
+        "election_day": 14,
+        "register_month": -1
+    },
+    "UT": {
+        "absentee_day": 2,
+        "absentee_year": 2017,
+        "election_month": 11,
+        "election_names": [
+            "US House of Representatives Special Election"
+        ],
+        "register_day": 31,
+        "absentee_month": 11,
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 7,
+        "register_month": 10
+    },
+    "NH": {
+        "absentee_day": 6,
+        "absentee_year": 2017,
+        "election_month": 11,
+        "election_names": [
+            "New Hampshire State Representative Election",
+            "New Hampshire State Representative Election"
+        ],
+        "register_day": 31,
+        "absentee_month": 11,
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 7,
+        "register_month": 10
+    },
+    "FL": {
+        "absentee_day": 13,
+        "absentee_year": 2017,
+        "election_month": 12,
+        "election_names": [
+            "City of Orlando Run-Off Election"
+        ],
+        "register_day": 20,
+        "absentee_month": 12,
+        "election_year": 2017,
+        "register_year": 2017,
+        "election_day": 19,
+        "register_month": 11
     }
 }
