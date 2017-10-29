@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>FL</id>
   <title>FL's next election</title>
-  <updated>2017-10-11T08:05:12.231072+00:00</updated>
+  <updated>2017-10-28T08:05:11.102932+00:00</updated>
   <link href="https://when.vote/?FL" rel="alternate"/>
   <link href="https://when.vote/feed/FL.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>FL-election</id>
-    <title>New FL election: City of Orlando Run-Off Election</title>
-    <updated>2017-10-11T08:05:12.231139+00:00</updated>
+    <title>New FL election: State House District 72 Special Primary Election</title>
+    <updated>2017-10-28T08:05:11.103000+00:00</updated>
     <content>Visit https://when.vote/?FL to see election date and registration deadlines</content>
     <link href="https://when.vote/?FL" rel="alternate"/>
-    <published>2017-10-11T08:05:12.231170+00:00</published>
+    <published>2017-10-28T08:05:11.103032+00:00</published>
   </entry>
 </feed>

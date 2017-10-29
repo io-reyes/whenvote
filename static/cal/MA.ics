@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171027T080522Z
+DTSTAMP:20171029T080522Z
 DTSTART:20171106T070000
 DURATION:PT12H
-SUMMARY:Absentee request deadline: Massachusetts State Legislature Special Election
-UID:caf3cd79-14de-4020-a40d-b0a61938937a@caf3.org
+SUMMARY:Absentee request deadline: Special State Primary Election Worcester & Middlesex Senatorial District\, Special State Election First Berkshire Representative District\, Special State Election 3rd Essex Representative District\, Massachusetts State Legislature Special Election
+UID:52f371f6-2499-4c09-be5d-0c99b813f271@52f3.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171027T080522Z
+DTSTAMP:20171029T080522Z
 DTSTART:20171107T070000
 DURATION:PT12H
-SUMMARY:Election: Massachusetts State Legislature Special Election
-UID:fd4c094d-95fa-4e42-a837-a5eb4777bc6f@fd4c.org
+SUMMARY:Election: Special State Primary Election Worcester & Middlesex Senatorial District\, Special State Election First Berkshire Representative District\, Special State Election 3rd Essex Representative District\, Massachusetts State Legislature Special Election
+UID:59790f40-bf62-4b6a-97b6-bb43209e2751@5979.org
 END:VEVENT
 END:VCALENDAR
