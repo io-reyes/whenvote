@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171029T080522Z
+DTSTAMP:20171031T080534Z
 DTSTART:20171108T070000
 DURATION:PT12H
 SUMMARY:Absentee request deadline: Oklahoma State Senate Special Election\, Oklahoma State Senate District 27 Special Primary Election\, Oklahoma State House Special Election
-UID:0efa0ba0-9e20-40b9-9ccd-31f1a4b02a01@0efa.org
+UID:576a4b23-809f-404f-8c51-79e8770bb54b@576a.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171029T080522Z
+DTSTAMP:20171031T080534Z
 DTSTART:20171114T070000
 DURATION:PT12H
 SUMMARY:Election: Oklahoma State Senate Special Election\, Oklahoma State Senate District 27 Special Primary Election\, Oklahoma State House Special Election
-UID:56068daa-d40f-4d5f-9ce7-f5fff3242300@5606.org
+UID:2a38ae3c-9b87-4697-ae25-631c6a4b96f7@2a38.org
 END:VEVENT
 END:VCALENDAR

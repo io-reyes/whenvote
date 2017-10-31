@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>NY</id>
   <title>NY's next election</title>
-  <updated>2017-02-05T16:53:11.842536+00:00</updated>
+  <updated>2017-10-31T08:05:45.150992+00:00</updated>
   <link href="https://when.vote/?NY" rel="alternate"/>
   <link href="https://when.vote/feed/NY.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>NY-election</id>
+    <title>New NY election: New York General Election</title>
+    <updated>2017-10-31T08:05:45.151084+00:00</updated>
+    <content>Visit https://when.vote/?NY to see election date and registration deadlines</content>
+    <link href="https://when.vote/?NY" rel="alternate"/>
+    <published>2017-10-31T08:05:45.151129+00:00</published>
+  </entry>
 </feed>

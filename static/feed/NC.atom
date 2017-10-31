@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>NC</id>
   <title>NC's next election</title>
-  <updated>2017-02-05T16:53:11.842697+00:00</updated>
+  <updated>2017-10-31T08:05:50.425422+00:00</updated>
   <link href="https://when.vote/?NC" rel="alternate"/>
   <link href="https://when.vote/feed/NC.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>NC-election</id>
+    <title>New NC election: North Carolina General Election</title>
+    <updated>2017-10-31T08:05:50.425515+00:00</updated>
+    <content>Visit https://when.vote/?NC to see election date and registration deadlines</content>
+    <link href="https://when.vote/?NC" rel="alternate"/>
+    <published>2017-10-31T08:05:50.425558+00:00</published>
+  </entry>
 </feed>

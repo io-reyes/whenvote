@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>TX</id>
   <title>TX's next election</title>
-  <updated>2017-02-05T16:53:11.843925+00:00</updated>
+  <updated>2017-10-31T08:05:29.281598+00:00</updated>
   <link href="https://when.vote/?TX" rel="alternate"/>
   <link href="https://when.vote/feed/TX.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>TX-election</id>
+    <title>New TX election: Texas General Election</title>
+    <updated>2017-10-31T08:05:29.281660+00:00</updated>
+    <content>Visit https://when.vote/?TX to see election date and registration deadlines</content>
+    <link href="https://when.vote/?TX" rel="alternate"/>
+    <published>2017-10-31T08:05:29.281692+00:00</published>
+  </entry>
 </feed>

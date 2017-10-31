@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>PA</id>
   <title>PA's next election</title>
-  <updated>2017-02-05T16:53:11.843323+00:00</updated>
+  <updated>2017-10-31T08:05:18.680572+00:00</updated>
   <link href="https://when.vote/?PA" rel="alternate"/>
   <link href="https://when.vote/feed/PA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>PA-election</id>
+    <title>New PA election: Pennsylvania General Election</title>
+    <updated>2017-10-31T08:05:18.680639+00:00</updated>
+    <content>Visit https://when.vote/?PA to see election date and registration deadlines</content>
+    <link href="https://when.vote/?PA" rel="alternate"/>
+    <published>2017-10-31T08:05:18.680672+00:00</published>
+  </entry>
 </feed>

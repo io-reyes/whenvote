@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>WY</id>
   <title>WY's next election</title>
-  <updated>2017-02-05T16:53:11.844741+00:00</updated>
+  <updated>2017-10-31T08:06:38.249877+00:00</updated>
   <link href="https://when.vote/?WY" rel="alternate"/>
   <link href="https://when.vote/feed/WY.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>WY-election</id>
+    <title>New WY election: Wyoming General Election</title>
+    <updated>2017-10-31T08:06:38.249947+00:00</updated>
+    <content>Visit https://when.vote/?WY to see election date and registration deadlines</content>
+    <link href="https://when.vote/?WY" rel="alternate"/>
+    <published>2017-10-31T08:06:38.249978+00:00</published>
+  </entry>
 </feed>

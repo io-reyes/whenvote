@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>ND</id>
   <title>ND's next election</title>
-  <updated>2017-02-05T16:53:11.842815+00:00</updated>
+  <updated>2017-10-31T08:06:32.953884+00:00</updated>
   <link href="https://when.vote/?ND" rel="alternate"/>
   <link href="https://when.vote/feed/ND.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>ND-election</id>
+    <title>New ND election: North Dakota General Election</title>
+    <updated>2017-10-31T08:06:32.953953+00:00</updated>
+    <content>Visit https://when.vote/?ND to see election date and registration deadlines</content>
+    <link href="https://when.vote/?ND" rel="alternate"/>
+    <published>2017-10-31T08:06:32.953983+00:00</published>
+  </entry>
 </feed>
