@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171101T080513Z
+DTSTAMP:20171102T080511Z
 DTSTART:20171110T070000
 DURATION:PT12H
 SUMMARY:Absentee request deadline: State House of Representatives District 99 Special Primary Election\, State House of Representatives District 28 Special Primary Election
-UID:ffd40e11-9364-4cde-80c1-02fbf109335b@ffd4.org
+UID:8ba7bf75-22ef-4b63-a650-7cbd251b0579@8ba7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171101T080513Z
+DTSTAMP:20171102T080511Z
 DTSTART:20171114T070000
 DURATION:PT12H
 SUMMARY:Election: State House of Representatives District 99 Special Primary Election\, State House of Representatives District 28 Special Primary Election
-UID:95170b28-169b-442e-a101-e84a37ac05ee@9517.org
+UID:410273f2-951a-47b8-ad43-2e997614f517@4102.org
 END:VEVENT
 END:VCALENDAR

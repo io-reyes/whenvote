@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171101T080513Z
+DTSTAMP:20171102T080511Z
 DTSTART:20171103T070000
 DURATION:PT12H
 SUMMARY:Absentee request deadline: Georgia House District 42 Special Election\, Georgia State House District 117 Special Election\, Georgia State House District 119 Special Election\, Georgia State Senate District 6 Special Election\, Georgia State Senate District 39 Special Election
-UID:fe9ec03e-15a7-4ec1-ab8d-e1ef3f9c236b@fe9e.org
+UID:5e352c15-3142-4671-9fa2-27ee8a2e873a@5e35.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171101T080513Z
+DTSTAMP:20171102T080511Z
 DTSTART:20171107T070000
 DURATION:PT12H
 SUMMARY:Election: Georgia House District 42 Special Election\, Georgia State House District 117 Special Election\, Georgia State House District 119 Special Election\, Georgia State Senate District 6 Special Election\, Georgia State Senate District 39 Special Election
-UID:05880799-7333-4e0a-9ff2-fd94de7a7ef8@0588.org
+UID:094b0912-54ca-49ed-acc9-8870d51b2c4e@094b.org
 END:VEVENT
 END:VCALENDAR
