@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>MI</id>
   <title>MI's next election</title>
-  <updated>2017-08-23T08:05:08.737261+00:00</updated>
+  <updated>2017-11-08T08:05:33.822464+00:00</updated>
   <link href="https://when.vote/?MI" rel="alternate"/>
   <link href="https://when.vote/feed/MI.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>MI-election</id>
-    <title>New MI election: Michigan State Legislature Special Election</title>
-    <updated>2017-08-23T08:05:08.737329+00:00</updated>
+    <title>New MI election: Michigan General Election</title>
+    <updated>2017-11-08T08:05:33.822533+00:00</updated>
     <content>Visit https://when.vote/?MI to see election date and registration deadlines</content>
     <link href="https://when.vote/?MI" rel="alternate"/>
-    <published>2017-08-23T08:05:08.737360+00:00</published>
+    <published>2017-11-08T08:05:33.822562+00:00</published>
   </entry>
 </feed>

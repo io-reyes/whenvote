@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>IN</id>
   <title>IN's next election</title>
-  <updated>2017-02-05T16:53:11.840272+00:00</updated>
+  <updated>2017-11-09T08:05:25.462805+00:00</updated>
   <link href="https://when.vote/?IN" rel="alternate"/>
   <link href="https://when.vote/feed/IN.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>IN-election</id>
+    <title>New IN election: Indiana State Primary Election</title>
+    <updated>2017-11-09T08:05:25.462871+00:00</updated>
+    <content>Visit https://when.vote/?IN to see election date and registration deadlines</content>
+    <link href="https://when.vote/?IN" rel="alternate"/>
+    <published>2017-11-09T08:05:25.462899+00:00</published>
+  </entry>
 </feed>
