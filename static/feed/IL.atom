@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>IL</id>
   <title>IL's next election</title>
-  <updated>2017-02-05T16:53:11.840159+00:00</updated>
+  <updated>2017-11-10T08:05:18.703885+00:00</updated>
   <link href="https://when.vote/?IL" rel="alternate"/>
   <link href="https://when.vote/feed/IL.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>IL-election</id>
+    <title>New IL election: Illinois State Primary Election</title>
+    <updated>2017-11-10T08:05:18.703935+00:00</updated>
+    <content>Visit https://when.vote/?IL to see election date and registration deadlines</content>
+    <link href="https://when.vote/?IL" rel="alternate"/>
+    <published>2017-11-10T08:05:18.703972+00:00</published>
+  </entry>
 </feed>

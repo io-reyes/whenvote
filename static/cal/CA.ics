@@ -2,24 +2,24 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171109T080509Z
+DTSTAMP:20171110T080518Z
 DTSTART:20171120T070000
 DURATION:PT12H
-SUMMARY:Registration deadline: California State Assembly Special Election\, State Assembly District 51 Special Election
-UID:54f755f6-cb7d-47d0-9fe0-c60990fce537@54f7.org
+SUMMARY:Registration deadline: State Assembly District 51 Special Election\, California State Assembly Special Election
+UID:c4ec1824-4a1b-46b8-9e4d-1fa89ef23e84@c4ec.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171109T080509Z
+DTSTAMP:20171110T080518Z
 DTSTART:20171120T070000
 DURATION:PT12H
-SUMMARY:Absentee request deadline: California State Assembly Special Election\, State Assembly District 51 Special Election
-UID:f3134a45-680a-4f39-8bfa-f7bf929612d3@f313.org
+SUMMARY:Absentee request deadline: State Assembly District 51 Special Election\, California State Assembly Special Election
+UID:157ab4c6-ce30-4635-aa45-0cb1ef3e21f8@157a.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171109T080509Z
+DTSTAMP:20171110T080518Z
 DTSTART:20171205T070000
 DURATION:PT12H
-SUMMARY:Election: California State Assembly Special Election\, State Assembly District 51 Special Election
-UID:a2d6db83-7fe8-4f65-8597-8649ae869de5@a2d6.org
+SUMMARY:Election: State Assembly District 51 Special Election\, California State Assembly Special Election
+UID:7d6bee87-7c60-4bad-8dc3-1136eb914ae0@7d6b.org
 END:VEVENT
 END:VCALENDAR
