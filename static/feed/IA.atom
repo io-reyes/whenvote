@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>IA</id>
   <title>IA's next election</title>
-  <updated>2017-02-05T16:53:11.840386+00:00</updated>
+  <updated>2017-11-11T08:05:17.283945+00:00</updated>
   <link href="https://when.vote/?IA" rel="alternate"/>
   <link href="https://when.vote/feed/IA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>IA-election</id>
+    <title>New IA election: Iowa Primary Election</title>
+    <updated>2017-11-11T08:05:17.284012+00:00</updated>
+    <content>Visit https://when.vote/?IA to see election date and registration deadlines</content>
+    <link href="https://when.vote/?IA" rel="alternate"/>
+    <published>2017-11-11T08:05:17.284042+00:00</published>
+  </entry>
 </feed>

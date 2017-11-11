@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>DE</id>
   <title>DE's next election</title>
-  <updated>2017-02-05T07:09:19.203147+00:00</updated>
+  <updated>2017-11-11T08:05:11.877385+00:00</updated>
   <link href="https://when.vote/?DE" rel="alternate"/>
   <link href="https://when.vote/feed/DE.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>DE-election</id>
-    <title>New DE election: Delaware State House District 10 Special Election</title>
-    <updated>2017-02-05T07:09:19.203249+00:00</updated>
+    <title>New DE election: Delaware Primary Election</title>
+    <updated>2017-11-11T08:05:11.877429+00:00</updated>
     <content>Visit https://when.vote/?DE to see election date and registration deadlines</content>
     <link href="https://when.vote/?DE" rel="alternate"/>
-    <published>2017-02-05T07:09:19.203272+00:00</published>
+    <published>2017-11-11T08:05:11.877447+00:00</published>
   </entry>
 </feed>
