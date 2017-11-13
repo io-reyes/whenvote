@@ -2,10 +2,10 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171111T080522Z
+DTSTAMP:20171113T080513Z
 DTSTART:20171114T070000
 DURATION:PT12H
 SUMMARY:Election: State House of Representatives District 99 Special Primary Election\, State House of Representatives District 28 Special Primary Election
-UID:5c148b37-3b1b-454d-9ac6-d2ab21d35f45@5c14.org
+UID:171c89cc-0dd8-4d2f-b2fc-793324d4c6f9@171c.org
 END:VEVENT
 END:VCALENDAR

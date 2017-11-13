@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>OK</id>
   <title>OK's next election</title>
-  <updated>2017-11-10T08:05:13.357452+00:00</updated>
+  <updated>2017-11-13T08:05:13.481903+00:00</updated>
   <link href="https://when.vote/?OK" rel="alternate"/>
   <link href="https://when.vote/feed/OK.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>OK-election</id>
-    <title>New OK election: Oklahoma State Senate Special Election, Oklahoma State Senate District 27 Special Primary Election, Oklahoma State House Special Election</title>
-    <updated>2017-11-10T08:05:13.357524+00:00</updated>
+    <title>New OK election: Oklahoma State House Special Election, Oklahoma State Senate Special Election, Oklahoma State Senate District 27 Special Primary Election</title>
+    <updated>2017-11-13T08:05:13.481979+00:00</updated>
     <content>Visit https://when.vote/?OK to see election date and registration deadlines</content>
     <link href="https://when.vote/?OK" rel="alternate"/>
-    <published>2017-11-10T08:05:13.357559+00:00</published>
+    <published>2017-11-13T08:05:13.482006+00:00</published>
   </entry>
 </feed>
