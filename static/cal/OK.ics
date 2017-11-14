@@ -2,10 +2,10 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171113T080513Z
+DTSTAMP:20171114T080514Z
 DTSTART:20171114T070000
 DURATION:PT12H
-SUMMARY:Election: Oklahoma State House Special Election\, Oklahoma State Senate Special Election\, Oklahoma State Senate District 27 Special Primary Election
-UID:983b7267-109a-4bd7-bf8a-379ee0ee79dd@983b.org
+SUMMARY:Election: Oklahoma State Senate Special Election\, Oklahoma State Senate District 27 Special Primary Election\, Oklahoma State House Special Election
+UID:cfe06f2f-cb3e-4709-b13e-2c31bb820f9e@cfe0.org
 END:VEVENT
 END:VCALENDAR
