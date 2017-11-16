@@ -1,549 +1,577 @@
 {
-    "AL": {
-        "absentee_day": 7,
-        "election_month": 12,
-        "register_day": 27,
-        "election_year": 2017,
-        "register_month": 11,
-        "register_year": 2017,
-        "election_names": [
-            "US Senate Special Election"
-        ],
-        "election_day": 12,
-        "absentee_month": 12,
-        "absentee_year": 2017
-    },
-    "MA": {
-        "absentee_day": 4,
-        "election_month": 12,
-        "register_day": 15,
-        "election_year": 2017,
-        "register_month": 11,
-        "register_year": 2017,
-        "election_names": [
-            "Special State General Election Worcester & Middlesex Senatorial District"
-        ],
-        "election_day": 5,
-        "absentee_month": 12,
-        "absentee_year": 2017
-    },
-    "TN": {
-        "absentee_day": 12,
-        "election_month": 12,
-        "register_day": 21,
-        "election_year": 2017,
-        "register_month": 11,
-        "register_year": 2017,
-        "election_names": [
-            "Tennessee Senate District 17 Special General Election"
-        ],
-        "election_day": 19,
-        "absentee_month": 12,
-        "absentee_year": 2017
-    },
-    "MN": {
-        "absentee_day": 5,
-        "election_month": 11,
-        "register_day": 16,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Minnesota General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 11,
-        "absentee_year": 2018
-    },
-    "WV": {
-        "absentee_day": 2,
-        "election_month": 5,
-        "register_day": 17,
-        "election_year": 2018,
-        "register_month": 4,
-        "register_year": 2018,
-        "election_names": [
-            "West Virginia State Primary Election"
-        ],
-        "election_day": 8,
-        "absentee_month": 5,
-        "absentee_year": 2018
-    },
-    "ND": {
-        "absentee_day": 5,
-        "election_month": 11,
-        "register_day": -1,
-        "election_year": 2018,
-        "register_month": -1,
-        "register_year": -1,
-        "election_names": [
-            "North Dakota General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 11,
-        "absentee_year": 2018
-    },
-    "OH": {
-        "absentee_day": 5,
-        "election_month": 5,
-        "register_day": 9,
-        "election_year": 2018,
-        "register_month": 4,
-        "register_year": 2018,
-        "election_names": [
-            "Ohio State Primary Election"
-        ],
-        "election_day": 8,
-        "absentee_month": 5,
-        "absentee_year": 2018
-    },
-    "MS": {
-        "absentee_day": -1,
-        "election_month": 11,
-        "register_day": 6,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Mississippi General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": -1,
-        "absentee_year": -1
-    },
-    "IN": {
-        "absentee_day": 30,
-        "election_month": 5,
-        "register_day": 9,
-        "election_year": 2018,
-        "register_month": 4,
-        "register_year": 2018,
-        "election_names": [
-            "Indiana State Primary Election"
-        ],
-        "election_day": 8,
-        "absentee_month": 4,
-        "absentee_year": 2018
-    },
-    "MI": {
-        "absentee_day": 3,
-        "election_month": 11,
-        "register_day": 9,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Michigan General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 11,
-        "absentee_year": 2018
-    },
     "TX": {
-        "absentee_day": 23,
-        "election_month": 3,
-        "register_day": 5,
-        "election_year": 2018,
         "register_month": 2,
+        "absentee_day": 23,
         "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 2,
+        "election_day": 6,
+        "register_day": 5,
+        "election_month": 3,
         "election_names": [
             "Texas State Primary Election"
         ],
-        "election_day": 6,
-        "absentee_month": 2,
-        "absentee_year": 2018
-    },
-    "NE": {
-        "absentee_day": 26,
-        "election_month": 11,
-        "register_day": 19,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Nebraska General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 10,
-        "absentee_year": 2018
-    },
-    "NJ": {
-        "absentee_day": 30,
-        "election_month": 11,
-        "register_day": 16,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "New Jersey General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 10,
-        "absentee_year": 2018
-    },
-    "CA": {
-        "absentee_day": 20,
-        "election_month": 12,
-        "register_day": 20,
-        "election_year": 2017,
-        "register_month": 11,
-        "register_year": 2017,
-        "election_names": [
-            "California State Assembly Special Election",
-            "State Assembly District 51 Special Election"
-        ],
-        "election_day": 5,
-        "absentee_month": 11,
-        "absentee_year": 2017
-    },
-    "OR": {
-        "absentee_day": 10,
-        "election_month": 5,
-        "register_day": 24,
-        "election_year": 2018,
-        "register_month": 4,
-        "register_year": 2018,
-        "election_names": [
-            "Oregon State Primary Election"
-        ],
-        "election_day": 15,
-        "absentee_month": 5,
-        "absentee_year": 2018
-    },
-    "DC": {
-        "absentee_day": 12,
-        "election_month": 6,
-        "register_day": 29,
-        "election_year": 2018,
-        "register_month": 5,
-        "register_year": 2018,
-        "election_names": [
-            "District of Columbia Primary Election"
-        ],
-        "election_day": 19,
-        "absentee_month": 6,
-        "absentee_year": 2018
-    },
-    "MO": {
-        "absentee_day": 31,
-        "election_month": 11,
-        "register_day": 10,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Missouri General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 10,
-        "absentee_year": 2018
-    },
-    "DE": {
-        "absentee_day": 10,
-        "election_month": 9,
-        "register_day": 11,
-        "election_year": 2018,
-        "register_month": 8,
-        "register_year": 2018,
-        "election_names": [
-            "Delaware Primary Election"
-        ],
-        "election_day": 11,
-        "absentee_month": 9,
-        "absentee_year": 2018
-    },
-    "NV": {
-        "absentee_day": 30,
-        "election_month": 11,
-        "register_day": 16,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Nevada General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 10,
-        "absentee_year": 2018
-    },
-    "IL": {
-        "absentee_day": 15,
-        "election_month": 3,
-        "register_day": 20,
-        "election_year": 2018,
-        "register_month": 2,
-        "register_year": 2018,
-        "election_names": [
-            "Illinois State Primary Election"
-        ],
-        "election_day": 20,
-        "absentee_month": 3,
-        "absentee_year": 2018
-    },
-    "PA": {
-        "absentee_day": 30,
-        "election_month": 11,
-        "register_day": 9,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Pennsylvania General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 10,
-        "absentee_year": 2018
-    },
-    "FL": {
-        "absentee_day": 29,
-        "election_month": 12,
-        "register_day": -1,
-        "election_year": 2017,
-        "register_month": -1,
-        "register_year": -1,
-        "election_names": [
-            "State House District 72 Special Primary Election"
-        ],
-        "election_day": 5,
-        "absentee_month": 11,
-        "absentee_year": 2017
-    },
-    "UT": {
-        "absentee_day": 1,
-        "election_month": 11,
-        "register_day": 7,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Utah General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 11,
-        "absentee_year": 2018
-    },
-    "SC": {
-        "absentee_day": 29,
-        "election_month": 1,
-        "register_day": 3,
-        "election_year": 2018,
-        "register_month": 12,
-        "register_year": 2017,
-        "election_names": [
-            "State House of Representatives District 56 Special General Election"
-        ],
-        "election_day": 2,
-        "absentee_month": 12,
-        "absentee_year": 2017
-    },
-    "MD": {
-        "absentee_day": 19,
-        "election_month": 6,
-        "register_day": 5,
-        "election_year": 2018,
-        "register_month": 6,
-        "register_year": 2018,
-        "election_names": [
-            "Maryland Primary Election"
-        ],
-        "election_day": 26,
-        "absentee_month": 6,
-        "absentee_year": 2018
-    },
-    "NC": {
-        "absentee_day": 1,
-        "election_month": 5,
-        "register_day": 13,
-        "election_year": 2018,
-        "register_month": 4,
-        "register_year": 2018,
-        "election_names": [
-            "North Carolina State Primary Election"
-        ],
-        "election_day": 8,
-        "absentee_month": 5,
-        "absentee_year": 2018
-    },
-    "OK": {
-        "absentee_day": 31,
-        "election_month": 11,
-        "register_day": 12,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Oklahoma General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 10,
-        "absentee_year": 2018
-    },
-    "VT": {
-        "absentee_day": 5,
-        "election_month": 11,
-        "register_day": 31,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Vermont General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 11,
         "absentee_year": 2018
     },
     "IA": {
-        "absentee_day": 2,
-        "election_month": 6,
-        "register_day": 22,
-        "election_year": 2018,
         "register_month": 10,
+        "absentee_day": 2,
         "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 5,
+        "register_day": 22,
+        "election_month": 6,
         "election_names": [
             "Iowa Primary Election"
         ],
-        "election_day": 5,
-        "absentee_month": 11,
         "absentee_year": 2018
     },
-    "MT": {
-        "absentee_day": 5,
-        "election_month": 11,
-        "register_day": 9,
-        "election_year": 2018,
-        "register_month": 10,
+    "MD": {
+        "register_month": 6,
+        "absentee_day": 19,
         "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 6,
+        "election_day": 26,
+        "register_day": 5,
+        "election_month": 6,
         "election_names": [
-            "Montana General Election"
+            "Maryland Primary Election"
         ],
-        "election_day": 6,
-        "absentee_month": 11,
         "absentee_year": 2018
     },
-    "NY": {
+    "NV": {
+        "register_month": 10,
         "absentee_day": 30,
-        "election_month": 11,
-        "register_day": 12,
-        "election_year": 2018,
-        "register_month": 10,
         "register_year": 2018,
-        "election_names": [
-            "New York General Election"
-        ],
-        "election_day": 6,
+        "election_year": 2018,
         "absentee_month": 10,
+        "election_day": 6,
+        "register_day": 16,
+        "election_month": 11,
+        "election_names": [
+            "Nevada General Election"
+        ],
         "absentee_year": 2018
     },
-    "AR": {
-        "absentee_day": 15,
-        "election_month": 5,
-        "register_day": 23,
-        "election_year": 2018,
+    "GA": {
         "register_month": 4,
+        "absentee_day": 18,
         "register_year": 2018,
-        "election_names": [
-            "Arkansas State Primary Election"
-        ],
+        "election_year": 2018,
+        "absentee_month": 5,
         "election_day": 22,
-        "absentee_month": 5,
-        "absentee_year": 2018
-    },
-    "ID": {
-        "absentee_day": 4,
+        "register_day": 23,
         "election_month": 5,
-        "register_day": 20,
-        "election_year": 2018,
+        "election_names": [
+            "Georgia State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "PA": {
         "register_month": 4,
+        "absentee_day": 8,
         "register_year": 2018,
-        "election_names": [
-            "Idaho State Primary Election"
-        ],
-        "election_day": 15,
+        "election_year": 2018,
         "absentee_month": 5,
+        "election_day": 15,
+        "register_day": 16,
+        "election_month": 5,
+        "election_names": [
+            "Pennsylvania State Primary Election"
+        ],
         "absentee_year": 2018
     },
-    "RI": {
-        "absentee_day": 16,
-        "election_month": 11,
-        "register_day": 7,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "Rhode Island General Election"
-        ],
-        "election_day": 6,
-        "absentee_month": 10,
-        "absentee_year": 2018
-    },
-    "NM": {
-        "absentee_day": 2,
-        "election_month": 11,
-        "register_day": 9,
-        "election_year": 2018,
-        "register_month": 10,
-        "register_year": 2018,
-        "election_names": [
-            "New Mexico General Election"
-        ],
-        "election_day": 6,
+    "FL": {
+        "register_month": -1,
+        "absentee_day": 29,
+        "register_year": -1,
+        "election_year": 2017,
         "absentee_month": 11,
-        "absentee_year": 2018
+        "election_day": 5,
+        "register_day": -1,
+        "election_month": 12,
+        "election_names": [
+            "State House District 72 Special Primary Election"
+        ],
+        "absentee_year": 2017
     },
-    "NH": {
+    "MN": {
+        "register_month": 10,
         "absentee_day": 5,
-        "election_month": 11,
-        "register_day": 6,
-        "election_year": 2018,
-        "register_month": 11,
         "register_year": 2018,
-        "election_names": [
-            "New Hampshire General Election"
-        ],
-        "election_day": 6,
+        "election_year": 2018,
         "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 16,
+        "election_month": 11,
+        "election_names": [
+            "Minnesota General Election"
+        ],
         "absentee_year": 2018
     },
-    "VA": {
-        "absentee_day": 30,
-        "election_month": 11,
-        "register_day": 19,
-        "election_year": 2018,
+    "MO": {
         "register_month": 10,
+        "absentee_day": 31,
         "register_year": 2018,
-        "election_names": [
-            "Virginia General Election"
-        ],
-        "election_day": 6,
+        "election_year": 2018,
         "absentee_month": 10,
+        "election_day": 6,
+        "register_day": 10,
+        "election_month": 11,
+        "election_names": [
+            "Missouri General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "DE": {
+        "register_month": 8,
+        "absentee_day": 10,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 9,
+        "election_day": 11,
+        "register_day": 11,
+        "election_month": 9,
+        "election_names": [
+            "Delaware Primary Election"
+        ],
         "absentee_year": 2018
     },
     "WI": {
-        "absentee_day": 1,
-        "election_month": 11,
-        "register_day": 17,
-        "election_year": 2018,
         "register_month": 10,
+        "absentee_day": 1,
         "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 17,
+        "election_month": 11,
         "election_names": [
             "Wisconsin General Election"
         ],
-        "election_day": 6,
-        "absentee_month": 11,
         "absentee_year": 2018
     },
-    "CO": {
-        "absentee_day": -1,
-        "election_month": 6,
-        "register_day": 18,
-        "election_year": 2018,
-        "register_month": 6,
+    "DC": {
+        "register_month": 5,
+        "absentee_day": 12,
         "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 6,
+        "election_day": 19,
+        "register_day": 29,
+        "election_month": 6,
+        "election_names": [
+            "District of Columbia Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "MI": {
+        "register_month": 10,
+        "absentee_day": 3,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 9,
+        "election_month": 11,
+        "election_names": [
+            "Michigan General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "KY": {
+        "register_month": 4,
+        "absentee_day": 15,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 22,
+        "register_day": 23,
+        "election_month": 5,
+        "election_names": [
+            "Kentucky State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "UT": {
+        "register_month": 10,
+        "absentee_day": 1,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 7,
+        "election_month": 11,
+        "election_names": [
+            "Utah General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "OH": {
+        "register_month": 4,
+        "absentee_day": 5,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 8,
+        "register_day": 9,
+        "election_month": 5,
+        "election_names": [
+            "Ohio State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "IN": {
+        "register_month": 4,
+        "absentee_day": 30,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 4,
+        "election_day": 8,
+        "register_day": 9,
+        "election_month": 5,
+        "election_names": [
+            "Indiana State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "AR": {
+        "register_month": 4,
+        "absentee_day": 15,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 22,
+        "register_day": 23,
+        "election_month": 5,
+        "election_names": [
+            "Arkansas State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "AL": {
+        "register_month": 11,
+        "absentee_day": 7,
+        "register_year": 2017,
+        "election_year": 2017,
+        "absentee_month": 12,
+        "election_day": 12,
+        "register_day": 27,
+        "election_month": 12,
+        "election_names": [
+            "US Senate Special Election"
+        ],
+        "absentee_year": 2017
+    },
+    "VT": {
+        "register_month": 10,
+        "absentee_day": 5,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 31,
+        "election_month": 11,
+        "election_names": [
+            "Vermont General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "MA": {
+        "register_month": -1,
+        "absentee_day": 4,
+        "register_year": -1,
+        "election_year": 2017,
+        "absentee_month": 12,
+        "election_day": 5,
+        "register_day": -1,
+        "election_month": 12,
+        "election_names": [
+            "Special State General Election Worcester & Middlesex Senatorial District"
+        ],
+        "absentee_year": 2017
+    },
+    "CO": {
+        "register_month": 6,
+        "absentee_day": -1,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": -1,
+        "election_day": 26,
+        "register_day": 18,
+        "election_month": 6,
         "election_names": [
             "Colorado Primary Election"
         ],
-        "election_day": 26,
-        "absentee_month": -1,
         "absentee_year": -1
+    },
+    "MS": {
+        "register_month": 10,
+        "absentee_day": -1,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": -1,
+        "election_day": 6,
+        "register_day": 6,
+        "election_month": 11,
+        "election_names": [
+            "Mississippi General Election"
+        ],
+        "absentee_year": -1
+    },
+    "CA": {
+        "register_month": 11,
+        "absentee_day": 20,
+        "register_year": 2017,
+        "election_year": 2017,
+        "absentee_month": 11,
+        "election_day": 5,
+        "register_day": 20,
+        "election_month": 12,
+        "election_names": [
+            "State Assembly District 51 Special Election",
+            "California State Assembly Special Election"
+        ],
+        "absentee_year": 2017
+    },
+    "NM": {
+        "register_month": 10,
+        "absentee_day": 2,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 9,
+        "election_month": 11,
+        "election_names": [
+            "New Mexico General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "NC": {
+        "register_month": 4,
+        "absentee_day": 1,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 8,
+        "register_day": 13,
+        "election_month": 5,
+        "election_names": [
+            "North Carolina State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "OR": {
+        "register_month": 4,
+        "absentee_day": 10,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 15,
+        "register_day": 24,
+        "election_month": 5,
+        "election_names": [
+            "Oregon State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "NH": {
+        "register_month": 11,
+        "absentee_day": 5,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 6,
+        "election_month": 11,
+        "election_names": [
+            "New Hampshire General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "OK": {
+        "register_month": 10,
+        "absentee_day": 31,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 10,
+        "election_day": 6,
+        "register_day": 12,
+        "election_month": 11,
+        "election_names": [
+            "Oklahoma General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "VA": {
+        "register_month": 10,
+        "absentee_day": 30,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 10,
+        "election_day": 6,
+        "register_day": 19,
+        "election_month": 11,
+        "election_names": [
+            "Virginia General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "ID": {
+        "register_month": 4,
+        "absentee_day": 4,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 15,
+        "register_day": 20,
+        "election_month": 5,
+        "election_names": [
+            "Idaho State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "NJ": {
+        "register_month": 10,
+        "absentee_day": 30,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 10,
+        "election_day": 6,
+        "register_day": 16,
+        "election_month": 11,
+        "election_names": [
+            "New Jersey General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "NE": {
+        "register_month": 4,
+        "absentee_day": 4,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 15,
+        "register_day": 27,
+        "election_month": 5,
+        "election_names": [
+            "Nebraska State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "ND": {
+        "register_month": -1,
+        "absentee_day": 5,
+        "register_year": -1,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": -1,
+        "election_month": 11,
+        "election_names": [
+            "North Dakota General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "NY": {
+        "register_month": 10,
+        "absentee_day": 30,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 10,
+        "election_day": 6,
+        "register_day": 12,
+        "election_month": 11,
+        "election_names": [
+            "New York General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "IL": {
+        "register_month": 2,
+        "absentee_day": 15,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 3,
+        "election_day": 20,
+        "register_day": 20,
+        "election_month": 3,
+        "election_names": [
+            "Illinois State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "RI": {
+        "register_month": 10,
+        "absentee_day": 16,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 10,
+        "election_day": 6,
+        "register_day": 7,
+        "election_month": 11,
+        "election_names": [
+            "Rhode Island General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "TN": {
+        "register_month": 11,
+        "absentee_day": 12,
+        "register_year": 2017,
+        "election_year": 2017,
+        "absentee_month": 12,
+        "election_day": 19,
+        "register_day": 21,
+        "election_month": 12,
+        "election_names": [
+            "Tennessee Senate District 17 Special General Election"
+        ],
+        "absentee_year": 2017
+    },
+    "WV": {
+        "register_month": 4,
+        "absentee_day": 2,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 5,
+        "election_day": 8,
+        "register_day": 17,
+        "election_month": 5,
+        "election_names": [
+            "West Virginia State Primary Election"
+        ],
+        "absentee_year": 2018
+    },
+    "MT": {
+        "register_month": 10,
+        "absentee_day": 5,
+        "register_year": 2018,
+        "election_year": 2018,
+        "absentee_month": 11,
+        "election_day": 6,
+        "register_day": 9,
+        "election_month": 11,
+        "election_names": [
+            "Montana General Election"
+        ],
+        "absentee_year": 2018
+    },
+    "SC": {
+        "register_month": 12,
+        "absentee_day": 29,
+        "register_year": 2017,
+        "election_year": 2018,
+        "absentee_month": 12,
+        "election_day": 2,
+        "register_day": 3,
+        "election_month": 1,
+        "election_names": [
+            "State House of Representatives District 56 Special General Election"
+        ],
+        "absentee_year": 2017
     }
 }

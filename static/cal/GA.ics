@@ -2,17 +2,24 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171102T080511Z
-DTSTART:20171103T070000
+DTSTAMP:20171116T080512Z
+DTSTART:20180423T070000
 DURATION:PT12H
-SUMMARY:Absentee request deadline: Georgia House District 42 Special Election\, Georgia State House District 117 Special Election\, Georgia State House District 119 Special Election\, Georgia State Senate District 6 Special Election\, Georgia State Senate District 39 Special Election
-UID:5e352c15-3142-4671-9fa2-27ee8a2e873a@5e35.org
+SUMMARY:Registration deadline: Georgia State Primary Election
+UID:35c41a1a-6f9e-4aa9-8744-8073a01eea26@35c4.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20171102T080511Z
-DTSTART:20171107T070000
+DTSTAMP:20171116T080512Z
+DTSTART:20180518T070000
 DURATION:PT12H
-SUMMARY:Election: Georgia House District 42 Special Election\, Georgia State House District 117 Special Election\, Georgia State House District 119 Special Election\, Georgia State Senate District 6 Special Election\, Georgia State Senate District 39 Special Election
-UID:094b0912-54ca-49ed-acc9-8870d51b2c4e@094b.org
+SUMMARY:Absentee request deadline: Georgia State Primary Election
+UID:914d2d9c-fa7b-470b-b158-eaaac19302aa@914d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20171116T080512Z
+DTSTART:20180522T070000
+DURATION:PT12H
+SUMMARY:Election: Georgia State Primary Election
+UID:a27c6c0f-fd13-4874-80b4-34f8f7c5e060@a27c.org
 END:VEVENT
 END:VCALENDAR

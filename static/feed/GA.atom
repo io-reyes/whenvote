@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>GA</id>
   <title>GA's next election</title>
-  <updated>2017-04-20T08:05:11.080202+00:00</updated>
+  <updated>2017-11-16T08:05:12.788880+00:00</updated>
   <link href="https://when.vote/?GA" rel="alternate"/>
   <link href="https://when.vote/feed/GA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>GA-election</id>
-    <title>New GA election: Georgia 6th Congressional District Special Election</title>
-    <updated>2017-04-20T08:05:11.080294+00:00</updated>
+    <title>New GA election: Georgia State Primary Election</title>
+    <updated>2017-11-16T08:05:12.788968+00:00</updated>
     <content>Visit https://when.vote/?GA to see election date and registration deadlines</content>
     <link href="https://when.vote/?GA" rel="alternate"/>
-    <published>2017-04-20T08:05:11.080340+00:00</published>
+    <published>2017-11-16T08:05:12.789004+00:00</published>
   </entry>
 </feed>

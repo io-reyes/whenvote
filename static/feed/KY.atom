@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>KY</id>
   <title>KY's next election</title>
-  <updated>2017-02-05T16:53:11.840613+00:00</updated>
+  <updated>2017-11-16T08:05:23.405672+00:00</updated>
   <link href="https://when.vote/?KY" rel="alternate"/>
   <link href="https://when.vote/feed/KY.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>KY-election</id>
+    <title>New KY election: Kentucky State Primary Election</title>
+    <updated>2017-11-16T08:05:23.405737+00:00</updated>
+    <content>Visit https://when.vote/?KY to see election date and registration deadlines</content>
+    <link href="https://when.vote/?KY" rel="alternate"/>
+    <published>2017-11-16T08:05:23.405766+00:00</published>
+  </entry>
 </feed>
