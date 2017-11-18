@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>AZ</id>
   <title>AZ's next election</title>
-  <updated>2017-02-05T16:53:11.838832+00:00</updated>
+  <updated>2017-11-18T08:05:12.785099+00:00</updated>
   <link href="https://when.vote/?AZ" rel="alternate"/>
   <link href="https://when.vote/feed/AZ.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>AZ-election</id>
+    <title>New AZ election: Arizona State Primary Election</title>
+    <updated>2017-11-18T08:05:12.785152+00:00</updated>
+    <content>Visit https://when.vote/?AZ to see election date and registration deadlines</content>
+    <link href="https://when.vote/?AZ" rel="alternate"/>
+    <published>2017-11-18T08:05:12.785177+00:00</published>
+  </entry>
 </feed>

@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>AK</id>
   <title>AK's next election</title>
-  <updated>2017-03-08T16:10:32.409864+00:00</updated>
+  <updated>2017-11-18T08:05:18.122934+00:00</updated>
   <link href="https://when.vote/?AK" rel="alternate"/>
   <link href="https://when.vote/feed/AK.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>AK-election</id>
-    <title>New AK election: Alaska Regional Education Attendance Area Elections</title>
-    <updated>2017-03-08T16:10:32.409926+00:00</updated>
+    <title>New AK election: Alaska State Primary Election</title>
+    <updated>2017-11-18T08:05:18.123015+00:00</updated>
     <content>Visit https://when.vote/?AK to see election date and registration deadlines</content>
     <link href="https://when.vote/?AK" rel="alternate"/>
-    <published>2017-03-08T16:10:32.409944+00:00</published>
+    <published>2017-11-18T08:05:18.123046+00:00</published>
   </entry>
 </feed>
