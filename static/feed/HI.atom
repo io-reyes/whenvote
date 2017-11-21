@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>HI</id>
   <title>HI's next election</title>
-  <updated>2017-02-05T16:53:11.839930+00:00</updated>
+  <updated>2017-11-21T08:05:23.471188+00:00</updated>
   <link href="https://when.vote/?HI" rel="alternate"/>
   <link href="https://when.vote/feed/HI.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
+  <entry>
+    <id>HI-election</id>
+    <title>New HI election: Hawaii State Primary Election</title>
+    <updated>2017-11-21T08:05:23.471248+00:00</updated>
+    <content>Visit https://when.vote/?HI to see election date and registration deadlines</content>
+    <link href="https://when.vote/?HI" rel="alternate"/>
+    <published>2017-11-21T08:05:23.471276+00:00</published>
+  </entry>
 </feed>

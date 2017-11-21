@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>MO</id>
   <title>MO's next election</title>
-  <updated>2017-08-23T08:05:19.536403+00:00</updated>
+  <updated>2017-11-21T08:05:12.812730+00:00</updated>
   <link href="https://when.vote/?MO" rel="alternate"/>
   <link href="https://when.vote/feed/MO.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>MO-election</id>
-    <title>New MO election: Missouri State Legislature Special Election, Missouri State Legislature Special Election</title>
-    <updated>2017-08-23T08:05:19.536462+00:00</updated>
+    <title>New MO election: Missouri State Primary Election</title>
+    <updated>2017-11-21T08:05:12.812795+00:00</updated>
     <content>Visit https://when.vote/?MO to see election date and registration deadlines</content>
     <link href="https://when.vote/?MO" rel="alternate"/>
-    <published>2017-08-23T08:05:19.536490+00:00</published>
+    <published>2017-11-21T08:05:12.812828+00:00</published>
   </entry>
 </feed>
