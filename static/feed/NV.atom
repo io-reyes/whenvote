@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>NV</id>
   <title>NV's next election</title>
-  <updated>2017-10-31T08:06:43.560510+00:00</updated>
+  <updated>2017-11-26T08:05:12.653721+00:00</updated>
   <link href="https://when.vote/?NV" rel="alternate"/>
   <link href="https://when.vote/feed/NV.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>NV-election</id>
-    <title>New NV election: Nevada General Election</title>
-    <updated>2017-10-31T08:06:43.560572+00:00</updated>
+    <title>New NV election: Nevada Primary Election</title>
+    <updated>2017-11-26T08:05:12.653762+00:00</updated>
     <content>Visit https://when.vote/?NV to see election date and registration deadlines</content>
     <link href="https://when.vote/?NV" rel="alternate"/>
-    <published>2017-10-31T08:06:43.560602+00:00</published>
+    <published>2017-11-26T08:05:12.653780+00:00</published>
   </entry>
 </feed>

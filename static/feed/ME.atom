@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>ME</id>
   <title>ME's next election</title>
-  <updated>2017-10-28T08:05:16.451623+00:00</updated>
+  <updated>2017-11-26T08:05:17.976310+00:00</updated>
   <link href="https://when.vote/?ME" rel="alternate"/>
   <link href="https://when.vote/feed/ME.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>ME-election</id>
-    <title>New ME election: Special Election for State Representative District 56 (Lisbon Only)</title>
-    <updated>2017-10-28T08:05:16.451685+00:00</updated>
+    <title>New ME election: Maine Primary Election</title>
+    <updated>2017-11-26T08:05:17.976373+00:00</updated>
     <content>Visit https://when.vote/?ME to see election date and registration deadlines</content>
     <link href="https://when.vote/?ME" rel="alternate"/>
-    <published>2017-10-28T08:05:16.451720+00:00</published>
+    <published>2017-11-26T08:05:17.976402+00:00</published>
   </entry>
 </feed>
