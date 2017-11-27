@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>UT</id>
   <title>UT's next election</title>
-  <updated>2017-11-08T08:05:28.534482+00:00</updated>
+  <updated>2017-11-27T08:05:18.188199+00:00</updated>
   <link href="https://when.vote/?UT" rel="alternate"/>
   <link href="https://when.vote/feed/UT.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>UT-election</id>
-    <title>New UT election: Utah General Election</title>
-    <updated>2017-11-08T08:05:28.534551+00:00</updated>
+    <title>New UT election: Utah Primary Election</title>
+    <updated>2017-11-27T08:05:18.188268+00:00</updated>
     <content>Visit https://when.vote/?UT to see election date and registration deadlines</content>
     <link href="https://when.vote/?UT" rel="alternate"/>
-    <published>2017-11-08T08:05:28.534580+00:00</published>
+    <published>2017-11-27T08:05:18.188297+00:00</published>
   </entry>
 </feed>
