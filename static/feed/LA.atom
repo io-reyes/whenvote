@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>LA</id>
   <title>LA's next election</title>
-  <updated>2017-08-22T08:05:11.195436+00:00</updated>
+  <updated>2017-11-29T08:05:16.518345+00:00</updated>
   <link href="https://when.vote/?LA" rel="alternate"/>
   <link href="https://when.vote/feed/LA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>LA-election</id>
-    <title>New LA election: Louisiana State Legislature Special Election</title>
-    <updated>2017-08-22T08:05:11.195507+00:00</updated>
+    <title>New LA election: Louisiana State Primary Election</title>
+    <updated>2017-11-29T08:05:16.518423+00:00</updated>
     <content>Visit https://when.vote/?LA to see election date and registration deadlines</content>
     <link href="https://when.vote/?LA" rel="alternate"/>
-    <published>2017-08-22T08:05:11.195542+00:00</published>
+    <published>2017-11-29T08:05:16.518455+00:00</published>
   </entry>
 </feed>

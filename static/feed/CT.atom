@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>CT</id>
   <title>CT's next election</title>
-  <updated>2017-02-05T07:09:19.204487+00:00</updated>
+  <updated>2017-11-29T08:05:21.802163+00:00</updated>
   <link href="https://when.vote/?CT" rel="alternate"/>
   <link href="https://when.vote/feed/CT.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>CT-election</id>
-    <title>New CT election: Connecticut State Legislature Special Election</title>
-    <updated>2017-02-05T07:09:19.204521+00:00</updated>
+    <title>New CT election: Connecticut State Primary Election</title>
+    <updated>2017-11-29T08:05:21.802227+00:00</updated>
     <content>Visit https://when.vote/?CT to see election date and registration deadlines</content>
     <link href="https://when.vote/?CT" rel="alternate"/>
-    <published>2017-02-05T07:09:19.204557+00:00</published>
+    <published>2017-11-29T08:05:21.802256+00:00</published>
   </entry>
 </feed>
