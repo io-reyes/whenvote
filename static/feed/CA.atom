@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>CA</id>
   <title>CA's next election</title>
-  <updated>2017-12-03T08:05:12.205945+00:00</updated>
+  <updated>2017-12-05T08:05:10.119075+00:00</updated>
   <link href="https://when.vote/?CA" rel="alternate"/>
   <link href="https://when.vote/feed/CA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>CA-election</id>
-    <title>New CA election: State Assembly District 51 Special Election, California State Assembly Special Election</title>
-    <updated>2017-12-03T08:05:12.206053+00:00</updated>
+    <title>New CA election: California State Assembly Special Election, State Assembly District 51 Special Election</title>
+    <updated>2017-12-05T08:05:10.119220+00:00</updated>
     <content>Visit https://when.vote/?CA to see election date and registration deadlines</content>
     <link href="https://when.vote/?CA" rel="alternate"/>
-    <published>2017-12-03T08:05:12.206090+00:00</published>
+    <published>2017-12-05T08:05:10.119255+00:00</published>
   </entry>
 </feed>

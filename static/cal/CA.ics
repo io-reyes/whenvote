@@ -2,10 +2,10 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171204T080512Z
+DTSTAMP:20171205T080510Z
 DTSTART:20171205T070000
 DURATION:PT12H
-SUMMARY:Election: State Assembly District 51 Special Election\, California State Assembly Special Election
-UID:1bc0870b-fb28-4925-8749-5ab897da49ea@1bc0.org
+SUMMARY:Election: California State Assembly Special Election\, State Assembly District 51 Special Election
+UID:25dc8665-abb8-408b-b083-5909a6ab1982@25dc.org
 END:VEVENT
 END:VCALENDAR
