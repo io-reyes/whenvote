@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>MA</id>
   <title>MA's next election</title>
-  <updated>2017-11-08T08:05:39.119720+00:00</updated>
+  <updated>2017-12-06T08:05:18.185092+00:00</updated>
   <link href="https://when.vote/?MA" rel="alternate"/>
   <link href="https://when.vote/feed/MA.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>MA-election</id>
-    <title>New MA election: Special State General Election Worcester &amp; Middlesex Senatorial District</title>
-    <updated>2017-11-08T08:05:39.119787+00:00</updated>
+    <title>New MA election: Massachusetts General Election</title>
+    <updated>2017-12-06T08:05:18.185152+00:00</updated>
     <content>Visit https://when.vote/?MA to see election date and registration deadlines</content>
     <link href="https://when.vote/?MA" rel="alternate"/>
-    <published>2017-11-08T08:05:39.119820+00:00</published>
+    <published>2017-12-06T08:05:18.185188+00:00</published>
   </entry>
 </feed>
