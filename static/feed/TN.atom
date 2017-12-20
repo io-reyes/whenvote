@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>TN</id>
   <title>TN's next election</title>
-  <updated>2017-10-31T08:05:23.997646+00:00</updated>
+  <updated>2017-12-20T08:05:13.824258+00:00</updated>
   <link href="https://when.vote/?TN" rel="alternate"/>
   <link href="https://when.vote/feed/TN.atom" rel="self"/>
   <generator uri="http://lkiesow.github.io/python-feedgen" version="0.5.1">python-feedgen</generator>
   <entry>
     <id>TN-election</id>
-    <title>New TN election: Tennessee General Election</title>
-    <updated>2017-10-31T08:05:23.997722+00:00</updated>
+    <title>New TN election: Tennessee State Primary Election</title>
+    <updated>2017-12-20T08:05:13.824327+00:00</updated>
     <content>Visit https://when.vote/?TN to see election date and registration deadlines</content>
     <link href="https://when.vote/?TN" rel="alternate"/>
-    <published>2017-10-31T08:05:23.997755+00:00</published>
+    <published>2017-12-20T08:05:13.824359+00:00</published>
   </entry>
 </feed>
