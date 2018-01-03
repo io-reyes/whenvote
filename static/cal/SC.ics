@@ -2,10 +2,17 @@ BEGIN:VCALENDAR
 PRODID:ics.py - http://git.io/lLljaA
 VERSION:2.0
 BEGIN:VEVENT
-DTSTAMP:20171230T080508Z
-DTSTART:20180102T070000
+DTSTAMP:20180103T080509Z
+DTSTART:20180112T070000
 DURATION:PT12H
-SUMMARY:Election: State House of Representatives District 56 Special General Election
-UID:ba8fe17a-bf4f-4c37-9f20-62e31f1b88cc@ba8f.org
+SUMMARY:Absentee request deadline: State House of Representatives District 99 Special General Election\, State House of Representatives District 28 Special General Election
+UID:ba6bf53b-3ae2-4a27-93d5-30d2e6e7394a@ba6b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180103T080509Z
+DTSTART:20180116T070000
+DURATION:PT12H
+SUMMARY:Election: State House of Representatives District 99 Special General Election\, State House of Representatives District 28 Special General Election
+UID:30b7a528-3460-4f83-9948-aedb8e841a1e@30b7.org
 END:VEVENT
 END:VCALENDAR
